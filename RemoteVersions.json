@@ -1,16 +1,16 @@
 {
   "midnitetech_modlibrary.ts4script": {
-    "latest": "v1",
-    "changelog": "7th May 2025: Updated to support my new Saturday Solutions Career Pack.",
-    "download": "https://www.patreon.com/posts/121729961?utm_campaign=postshare_creator"
+    "latest": "v3",
+    "changelog": "Now includes compatibility with my new Notebook mod.",
+    "download": "https://www.patreon.com/posts/your-new-post-id"
   },
   "lot51_core.ts4script": {
     "latest": "1.30.1",
     "download": "https://lot51.cc/mods/core-library"
   },
   "CleanLauncher": {
-    "latest": "1.0.0",
-    "changelog": "Added update checker and bug fixes.",
+    "latest": "1.0.2",
+    "changelog": "Bug fixes, improved mod scanner.",
     "download": "https://midnitetechmods.com/tools/cleanlauncher"
   }
 }
