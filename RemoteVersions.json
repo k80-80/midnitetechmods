@@ -1,16 +1,203 @@
 {
-  "midnitetech_modlibrary.ts4script": {
-    "latest": "v3",
-    "changelog": "7th May 2025: Updated to support my new Saturday Solutions Career Pack.",
-    "download": "https://www.patreon.com/posts/121729961"
+  "midnitetech": {
+    "midnitetech_modlibrary": {
+      "latest": "2025-05-08",
+      "changelog": "Updated to support my new Saturday Solutions Career Pack",
+      "download": "https://www.patreon.com/posts/121729961"
+    },
+    "midnitetech_Career_SaturdaySolutions_PartTime_Pack": {
+      "latest": "2025-05-08",
+      "changelog": "Small tuning update",
+      "download": "https://www.tumblr.com/midnitetech/782914479374598144/saturday-solutions-career-pack-part-time?source=share"
+    },
+    "midnitetech_CallMeMaybe": {
+      "latest": "2025-05-07",
+      "changelog": "N/A",
+      "download": "https://www.tumblr.com/midnitetech/782265850442956800/call-me-maybe-beta-release?source=share"
+    },
+    "midnitetech_minimods_": {
+      "latest": "2025-04-30",
+      "changelog": "N/A",
+      "download": "https://www.patreon.com/posts/mini-mods-69172769"
+    },
+    "midnitetech_Career_Flex_PartTime_Pack": {
+      "latest": "2025-04-30",
+      "changelog": "Fixed an LE that could occur when a Sim gets off work.",
+      "download": "https://www.patreon.com/posts/102582002"
+    },
+    "midnitetech_Career_SemiActive_Storytelling_Pack": {
+      "latest": "2025-04-28",
+      "changelog": "Fixed the 'Start New Project' interaction.",
+      "download": "https://www.patreon.com/posts/110155789"
+    },
+    "midnitetech_SSH": {
+      "latest": "2025-04-27",
+      "changelog": "Cleaned up some tuning and String files, and added 3 new Home Hustlez",
+      "download": "https://www.patreon.com/posts/102169392"
+    },
+    "midnitetech_WriteBooksOverhaul": {
+      "latest": "2025-04-25",
+      "changelog": "Added clearer publishing options",
+      "download": "https://www.patreon.com/posts/106270148"
+    },
+    "midnitetech_NoteworthyNotebook": {
+      "latest": "2025-04-25",
+      "changelog": "Reduced time to write a Notebook Original, added tuning clarifications.",
+      "download": "https://www.patreon.com/posts/noteworthy-120347504"
+    },
+    "midnitetech_SimazonUnlimited": {
+      "latest": "2025-04-03",
+      "changelog": "Brand new features; see the OP for more info!",
+      "download": "https://www.patreon.com/posts/103081415"
+    },
+    "midnitetech_Career_GameDev": {
+      "latest": "2025-03-08",
+      "changelog": "N/A",
+      "download": "https://www.patreon.com/posts/123913485"
+    },
+    "midnitetech_Career_RetailPack": {
+      "latest": "2025-07-26",
+      "changelog": "Updated tuning for new patch",
+      "download": "https://www.patreon.com/posts/retail-career-108866447"
+    },
+    "midnitetech_Career_SemiActive_SequentialArt": {
+      "latest": "2025-03-26",
+      "changelog": "Updated some missing tuning that was causing a BE",
+      "download": "https://www.patreon.com/posts/sequential-art-107834810"
+    },
+    "midnitetech_Career_HHC": {
+      "latest": "2025-03-25",
+      "changelog": "Updated tuning for new patch",
+      "download": "https://www.patreon.com/posts/holistic-health-117561715"
+    },
+    "midnitetech_Career_Freelancer_3DModeler": {
+      "latest": "2025-03-25",
+      "changelog": "Updated tuning for new patch",
+      "download": "https://www.patreon.com/posts/freelance-3d-111545916"
+    },
+    "midnitetech_Career_Librarian": {
+      "latest": "2025-03-25",
+      "changelog": "Updated tuning for new patch",
+      "download": "https://www.patreon.com/posts/librarian-career-110646387"
+    },
+    "midnitetech_Career_AllHoursAgency_Pack": {
+      "latest": "2025-03-25",
+      "changelog": "Updated tuning for new patch",
+      "download": "https://www.patreon.com/posts/all-hours-full-103336939"
+    },
+    "midnitetech_Career_SemiActive_ChiropractorCareer": {
+      "latest": "2025-02-26",
+      "changelog": "Updated tuning for new patch",
+      "download": "https://www.patreon.com/posts/chiropractor-77004254"
+    },
+    "midnitetech_PowerOutages_v2": {
+      "latest": "2025-02-07",
+      "changelog": "Added some new features",
+      "download": "https://www.patreon.com/posts/power-outages-107054469"
+    },
+    "midnitetech_ClassicCareers_": {
+      "latest": "2025-02-14",
+      "changelog": "N/A",
+      "download": "https://www.patreon.com/posts/classic-career-1-122037607"
+    }
   },
-  "lot51_core.ts4script": {
-    "latest": "1.30.1",
-    "download": "https://lot51.cc/mods/core-library"
+  "weerbesu": {
+    "UI_Cheats_": {
+      "latest": "v1.47",
+      "changelog": "Updated for game version 1.113.277 (Businesses & Hobbies patch)",
+      "download": "https://www.patreon.com/posts/ui-cheats-v1-13-26240068"
+    },
+    "More_CAS_Columns_": {
+      "latest": "v1.34",
+      "changelog": "Updated for game version 1.113.277 (Businesses & Hobbies patch)",
+      "download": "https://www.patreon.com/posts/more-columns-in-27751117"
+    }
   },
-  "CleanLauncher": {
-    "latest": "1.0.2",
-    "changelog": "Bug fixes, improved mod scanner.",
-    "download": "https://midnitetechmods.com/tools/cleanlauncher"
+  "deaderpool": {
+    "mc_": {
+      "latest": "2025.2.0",
+      "changelog": "",
+      "download": "https://deaderpool-mccc.com/downloads.html"
+    }
+  },
+  "twistedmexi": {
+    "tmex-BetterBuildBuy": {
+      "latest": "v3.4.1",
+      "changelog": "Business and Hobbies hotfix",
+      "download": "https://www.patreon.com/posts/better-buildbuy-124096797?update=1"
+    },
+    "Tmex-TOOL": {
+      "latest": "v2.8.10",
+      "changelog": "Escape & visual fix",
+      "download": "https://www.patreon.com/posts/tool-v2-8-10-fix-123998897"
+    },
+    "Tmex-BetterExceptions": {
+      "latest": "v3.13",
+      "changelog": "Menu hotfix removal",
+      "download": "https://www.patreon.com/posts/99403318"
+    }
+  },
+  "lumpinou": {
+    "Lumpinou_Toolbox": {
+      "latest": "2025-04-22",
+      "changelog": "Fix for 2 missing interactions in pie menu load helper",
+      "download": "https://www.patreon.com/posts/86658397"
+    },
+    "Lumpinou_RPO_": {
+      "latest": "2025-04-17",
+      "changelog": "Fixed issue with the new setting about non-married 'in laws'",
+      "download": "https://www.patreon.com/posts/75939899"
+    }
+  },
+  "turbodriver": {
+    "TURBODRIVER_WonderfulWhims": {
+      "latest": "v54",
+      "changelog": "Compatibility with the Life & Death expansion pack",
+      "download": "https://modthesims.info/d/647895/wonderfulwhims.html"
+    }
+  },
+  "kuttoe": {
+    "[Kuttoe] HomeRegions": {
+      "latest": "2025-04-16",
+      "changelog": "Fixed an issue where NPCs inviting your Sim to a nightclub would immediately leave if they didn't live in the same World as the lot.",
+      "download": "https://kuttoe.itch.io/keep-sims-in-home-region"
+    },
+    "[Kuttoe] TownieDemographics": {
+      "latest": "2025-03-08",
+      "changelog": "Added support for the new World, Nordhaven",
+      "download": "https://kuttoe.itch.io/townie-demographics"
+    }
+  },
+  "lotharihoe": {
+    "lotharhoe_betterreactions": {
+      "latest": "2025-03-07",
+      "changelog": "See OP",
+      "download": "https://legacy.curseforge.com/sims4/mods/better-reactions"
+    },
+    "lotharhoe_simspawnoverhaul": {
+      "latest": "v2.0.3",
+      "changelog": "Added support for the Businesses & Hobbies DLC",
+      "download": "https://legacy.curseforge.com/sims4/mods/sim-spawn-overhaul"
+    }
+  },
+  "roburky": {
+    "roBurky - MeaningfulStories": {
+      "latest": "v1.6.8.0",
+      "changelog": "Update for game version 1.111",
+      "download": "https://roburky.itch.io/sims4-meaningful-stories"
+    }
+  },
+  "lbb": {
+    "LBB_GranniesCookbook_": {
+      "latest": "2025-05-10",
+      "changelog": "Added recipe compatibility",
+      "download": "https://www.patreon.com/posts/grannies-35854516"
+    }
+  },
+  "lot51": {
+    "lot51_core.ts4script": {
+      "latest": "1.30.1",
+      "download": "https://lot51.cc/mods/core-library"
+    }
   }
 }
