@@ -1,38 +1,31 @@
 {
   "midnitetech": {
     "midnitetech_modlibrary": {
-      "latest": "2025-05-08",
-      "changelog": "Updated to support my new Saturday Solutions Career Pack",
+      "latest": "2025-06-04",
       "download": "https://www.patreon.com/posts/121729961"
     },
     "midnitetech_Career_SaturdaySolutions_PartTime_Pack": {
       "latest": "2025-05-08",
-      "changelog": "Small tuning update",
       "download": "https://www.tumblr.com/midnitetech/782914479374598144/saturday-solutions-career-pack-part-time?source=share"
     },
     "midnitetech_CallMeMaybe": {
       "latest": "2025-05-07",
-      "changelog": "N/A",
       "download": "https://www.tumblr.com/midnitetech/782265850442956800/call-me-maybe-beta-release?source=share"
     },
     "midnitetech_minimods_": {
       "latest": "2025-04-30",
-      "changelog": "N/A",
       "download": "https://www.patreon.com/posts/mini-mods-69172769"
     },
     "midnitetech_Career_Flex_PartTime_Pack": {
       "latest": "2025-04-30",
-      "changelog": "Fixed an LE that could occur when a Sim gets off work.",
       "download": "https://www.patreon.com/posts/102582002"
     },
     "midnitetech_Career_SemiActive_Storytelling_Pack": {
       "latest": "2025-04-28",
-      "changelog": "Fixed the 'Start New Project' interaction.",
       "download": "https://www.patreon.com/posts/110155789"
     },
     "midnitetech_SSH": {
       "latest": "2025-04-27",
-      "changelog": "Cleaned up some tuning and String files, and added 3 new Home Hustlez",
       "download": "https://www.patreon.com/posts/102169392"
     },
     "midnitetech_WriteBooksOverhaul": {
@@ -41,8 +34,7 @@
       "download": "https://www.patreon.com/posts/106270148"
     },
     "midnitetech_NoteworthyNotebook": {
-      "latest": "2025-04-25",
-      "changelog": "Reduced time to write a Notebook Original, added tuning clarifications.",
+      "latest": "2025-06-08",
       "download": "https://www.patreon.com/posts/noteworthy-120347504"
     },
     "midnitetech_SimazonUnlimited": {
@@ -99,7 +91,10 @@
       "latest": "2025-02-14",
       "changelog": "N/A",
       "download": "https://www.patreon.com/posts/classic-career-1-122037607"
-    }
+    },
+    "midnitetech_AspirationPack_HomeHobbies" : {
+    "latest": "2025-06-04",
+    "download": "https://www.patreon.com/posts/130702004"
   },
   "weerbesu": {
     "UI_Cheats_": {
