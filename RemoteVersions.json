@@ -98,63 +98,54 @@
   },
   "weerbesu": {
     "UI_Cheats_": {
-      "latest": "v1.47",
-      "changelog": "Updated for game version 1.113.277 (Businesses & Hobbies patch)",
+      "latest": "2025-05-27",
       "download": "https://www.patreon.com/posts/ui-cheats-v1-13-26240068"
     },
     "More_CAS_Columns_": {
-      "latest": "v1.34",
-      "changelog": "Updated for game version 1.113.277 (Businesses & Hobbies patch)",
+      "latest": "2025-02-26",
       "download": "https://www.patreon.com/posts/more-columns-in-27751117"
     }
   },
   "deaderpool": {
     "mc_": {
-      "latest": "2025.2.0",
-      "changelog": "",
+      "latest": "2025.3.0",
       "download": "https://deaderpool-mccc.com/downloads.html"
     }
   },
   "twistedmexi": {
     "tmex-BetterBuildBuy": {
-      "latest": "v3.4.1",
-      "changelog": "Business and Hobbies hotfix",
-      "download": "https://www.patreon.com/posts/better-buildbuy-124096797?update=1"
+      "latest": "2025-05-27",
+      "download": "https://www.patreon.com/posts/130102867"
     },
     "Tmex-TOOL": {
-      "latest": "v2.8.10",
-      "changelog": "Escape & visual fix",
-      "download": "https://www.patreon.com/posts/tool-v2-8-10-fix-123998897"
+      "latest": "2025-05-28",
+      "download": "https://www.patreon.com/posts/130120325"
     },
     "Tmex-BetterExceptions": {
-      "latest": "v3.13",
+      "latest": "2025-05-30",
       "changelog": "Menu hotfix removal",
-      "download": "https://www.patreon.com/posts/99403318"
+      "download": "https://www.patreon.com/posts/130049745"
     }
   },
   "lumpinou": {
     "Lumpinou_Toolbox": {
       "latest": "2025-04-22",
-      "changelog": "Fix for 2 missing interactions in pie menu load helper",
       "download": "https://www.patreon.com/posts/86658397"
     },
     "Lumpinou_RPO_": {
-      "latest": "2025-04-17",
-      "changelog": "Fixed issue with the new setting about non-married 'in laws'",
+      "latest": "2025-05-18",
       "download": "https://www.patreon.com/posts/75939899"
     }
   },
   "turbodriver": {
     "TURBODRIVER_WonderfulWhims": {
-      "latest": "v54",
-      "changelog": "Compatibility with the Life & Death expansion pack",
+      "latest": "2025-05-27",
       "download": "https://modthesims.info/d/647895/wonderfulwhims.html"
     }
   },
   "kuttoe": {
     "[Kuttoe] HomeRegions": {
       "latest": "2025-04-16",
-      "changelog": "Fixed an issue where NPCs inviting your Sim to a nightclub would immediately leave if they didn't live in the same World as the lot.",
       "download": "https://kuttoe.itch.io/keep-sims-in-home-region"
     },
     "[Kuttoe] TownieDemographics": {
