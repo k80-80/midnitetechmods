@@ -84,7 +84,6 @@
       "filedate": "2025-06-04T12:00:00",
       "download": "https://www.patreon.com/posts/130702004"
     },
-  "weerbesu": {
     "UI_Cheats_": {
       "filedate": "2025-05-27T12:00:00",
       "download": "https://www.patreon.com/posts/ui-cheats-v1-13-26240068"
@@ -94,13 +93,11 @@
       "download": "https://www.patreon.com/posts/more-columns-in-27751117"
     }
   },
-  "deaderpool": {
     "mc_": {
       "filedate": "2025-03-01T12:00:00",
       "download": "https://deaderpool-mccc.com/downloads.html"
     }
   },
-  "twistedmexi": {
     "tmex-BetterBuildBuy": {
       "filedate": "2025-05-27T12:00:00",
       "download": "https://www.patreon.com/posts/130102867"
@@ -114,7 +111,6 @@
       "download": "https://www.patreon.com/posts/130049745"
     }
   },
-  "lumpinou": {
     "Lumpinou_Toolbox": {
       "filedate": "2025-04-22T12:00:00",
       "download": "https://www.patreon.com/posts/86658397"
@@ -124,13 +120,11 @@
       "download": "https://www.patreon.com/posts/75939899"
     }
   },
-  "turbodriver": {
-    "TURBODRIVER_WonderfulWhims": {
+  "TURBODRIVER_WonderfulWhims": {
       "filedate": "2025-05-27T12:00:00",
       "download": "https://modthesims.info/d/647895/wonderfulwhims.html"
     }
   },
-  "kuttoe": {
     "[Kuttoe] HomeRegions": {
       "filedate": "2025-04-16T12:00:00",
       "download": "https://kuttoe.itch.io/keep-sims-in-home-region"
@@ -140,8 +134,7 @@
       "download": "https://kuttoe.itch.io/townie-demographics"
     }
   },
-  "lotharihoe": {
-    "lotharhoe_betterreactions": {
+    "lotharihoe_betterreactions": {
       "filedate": "2025-03-07T12:00:00",
       "download": "https://legacy.curseforge.com/sims4/mods/better-reactions"
     },
@@ -150,19 +143,16 @@
       "download": "https://legacy.curseforge.com/sims4/mods/sim-spawn-overhaul"
     }
   },
-  "roburky": {
     "roBurky - MeaningfulStories": {
       "filedate": "2025-05-01T12:00:00",
       "download": "https://roburky.itch.io/sims4-meaningful-stories"
     }
   },
-  "lbb": {
     "LBB_GranniesCookbook_": {
       "filedate": "2025-05-10T12:00:00",
       "download": "https://www.patreon.com/posts/grannies-35854516"
     }
   },
-  "lot51": {
     "lot51_core.ts4script": {
       "filedate": "2024-05-17T12:00:00",
       "download": "https://lot51.cc/mods/core-library"
