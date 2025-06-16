@@ -92,7 +92,7 @@
             "filedate": "2025-02-26T12:00:00",
             "download": "https://www.patreon.com/posts/more-columns-in-27751117"
         },
-        "mc_": {
+        "mc_cmd_center": {
             "filedate": "2025-03-01T12:00:00",
             "download": "https://deaderpool-mccc.com/downloads.html"
         },
@@ -133,7 +133,11 @@
             "download": "https://legacy.curseforge.com/sims4/mods/better-reactions"
         },
         "lotharihoe_simspawnoverhaul": {
-            "filedate": "2025-03-15T12:00:00",
+            "filedate": "2025-03-10T12:00:00",
+            "download": "https://legacy.curseforge.com/sims4/mods/sim-spawn-overhaul"
+        },
+        "lotharihoe_phonecalloverhaul": {
+            "filedate": "2024-09-12T12:00:00",
             "download": "https://legacy.curseforge.com/sims4/mods/sim-spawn-overhaul"
         },
         "roBurky - MeaningfulStories": {
@@ -144,7 +148,7 @@
             "filedate": "2025-05-10T12:00:00",
             "download": "https://www.patreon.com/posts/grannies-35854516"
         },
-        "lot51_core.ts4script": {
+        "lot51_core": {
             "filedate": "2024-05-17T12:00:00",
             "download": "https://lot51.cc/mods/core-library"
         }
