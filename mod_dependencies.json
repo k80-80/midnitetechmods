@@ -74,5 +74,11 @@
     "midnitetech_AspirationPack_HomeHobbies": [
         "lot51_core.ts4script",
         "midnitetech_modlibrary.ts4script"
+    ],
+    "littlemssam_": [
+        "XmlInjector_Script"
+    ],
+    "DISL_MPL_MultiPurposeLotTraits": [
+        "Andirz_BrainBlasted_InjectionTools"
     ]
 }
