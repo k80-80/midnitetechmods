@@ -1,10 +1,58 @@
 {
-    "midnitetech_Career_HHC": {
-        "new": "midnitetech_Career_SemiActive_HHC",
-        "url": "https://www.patreon.com/posts/holistic-health-117561715?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+    "outdated_mods": {
+        "midnitetech_Career_HHC": {
+            "new": "midnitetech_Career_SemiActive_HHC",
+            "url": "https://www.patreon.com/posts/holistic-health-117561715?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+        },
+        "midnitetech_Career_Librarian": {
+            "new": "midnitetech_Career_SemiActive_Librarian",
+            "url": "https://www.patreon.com/posts/librarian-career-110646387?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+        }
     },
-    "midnitetech_Career_Librarian": {
-        "new": "midnitetech_Career_SemiActive_Librarian",
-        "url": "https://www.patreon.com/posts/librarian-career-110646387?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
-    }
+    "defunct_mods": [
+        {
+            "old": "Midnitetech_Careers_RealEstate.package",
+            "replacement": "midnitetech_ClassicCareers_RealEstate.package",
+            "url": "https://www.patreon.com/posts/122037607",
+            "note": "No longer needed, use ClassicCareers version"
+        },
+        {
+            "old": "Midnitetech_Careers_RealEstate.ts4script",
+            "replacement": "midnitetech_ClassicCareers_RealEstate.package",
+            "note": "No longer needed, use ClassicCareers version"
+        },
+        {
+            "old": "Midnitetech_Careers_Banking.package",
+            "replacement": "midnitetech_ClassicCareers_Banking.package",
+            "url": "https://www.patreon.com/posts/122037607",
+            "note": "No longer needed, use ClassicCareers version"
+        },
+        {
+            "old": "Midnitetech_Careers_Banking.ts4script",
+            "replacement": "midnitetech_ClassicCareers_Banking.package",
+            "note": "No longer needed, use ClassicCareers version"
+        },
+        {
+            "old": "Midnitetech_Careers_HumanResourcesSpecialist.package",
+            "replacement": "midnitetech_ClassicCareers_Banking.package",
+            "url": "https://www.patreon.com/posts/122037607",
+            "note": "No longer needed, use ClassicCareers version"
+        },
+        {
+            "old": "Midnitetech_Careers_HumanResourcesSpecialist.ts4script",
+            "replacement": "midnitetech_ClassicCareers_Banking.package",
+            "note": "No longer needed, use ClassicCareers version"
+        },
+        {
+            "old": "Midnitetech_Careers_Hacker.package",
+            "replacement": "midnitetech_ClassicCareers_Hacker.package",
+            "url": "https://www.patreon.com/posts/122037607",
+            "note": "No longer needed, use ClassicCareers version"
+        },
+        {
+            "old": "Midnitetech_Careers_Hacker.ts4script",
+            "replacement": "midnitetech_ClassicCareers_Hacker.package",
+            "note": "No longer needed, use ClassicCareers version"
+        }
+    ]
 }
