@@ -1,10 +1,10 @@
 {
     "outdated_mods": {
-        "midnitetech_Career_HHC": {
-            "new": "midnitetech_Career_SemiActive_HHC",
+            "old": "midnitetech_Career_HHC",
+            "replacement": "midnitetech_Career_SemiActive_HHC",
             "url": "https://www.patreon.com/posts/holistic-health-117561715?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
         },
-        "midnitetech_Career_Librarian": {
+            "old": "midnitetech_Career_Librarian",
             "new": "midnitetech_Career_SemiActive_Librarian",
             "url": "https://www.patreon.com/posts/librarian-career-110646387?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
         }
