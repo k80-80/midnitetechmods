@@ -2,37 +2,37 @@
   "outdated_mods": {
     "midnitetech_Career_HHC": {  
       "old": ["midnitetech_Career_HHC.package"],
-      "replacement": "midnitetech_Career_SemiActive_HHC.package",
+      "replacement": "midnitetech_Career_SemiActive_HHC",
       "url": "https://www.patreon.com/posts/holistic-health-117561715?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
       "note": "Outdated version: You need the version with 'SemiActive' in the filename"
     },
     "midnitetech_Career_Librarian": {
       "old": ["midnitetech_Career_Librarian.package", "midnitetech_Career_Librarian.ts4script"],
-      "replacement": "midnitetech_Career_SemiActive_Librarian.package",
+      "replacement": "midnitetech_Career_SemiActive_Librarian",
       "url": "https://www.patreon.com/posts/librarian-career-110646387?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
       "note": "Outdated version: You need the version with 'SemiActive' in the filename"
     },
     "Midnitetech_Careers_RealEstate": {
       "old": ["Midnitetech_Careers_RealEstate.package", "Midnitetech_Careers_RealEstate.ts4script"],
-      "replacement": "midnitetech_ClassicCareers_RealEstate.package",
+      "replacement": "midnitetech_ClassicCareers_RealEstate",
       "url": "https://www.patreon.com/posts/122037607",
       "note": "No longer needed, use ClassicCareers version"
     },
     "Midnitetech_Careers_Banking": {
       "old": ["Midnitetech_Careers_Banking.package", "Midnitetech_Careers_Banking.ts4script"],
-      "replacement": "midnitetech_ClassicCareers_Banking.package",
+      "replacement": "midnitetech_ClassicCareers_Banking",
       "url": "https://www.patreon.com/posts/122037607",
       "note": "No longer needed, use ClassicCareers version"
     },
     "Midnitetech_Careers_HumanResourcesSpecialist": {
       "old": ["Midnitetech_Careers_HumanResourcesSpecialist.package", "Midnitetech_Careers_HumanResourcesSpecialist.ts4script"],
-      "replacement": "midnitetech_ClassicCareers_Banking.package",
+      "replacement": "midnitetech_ClassicCareers_Banking",
       "url": "https://www.patreon.com/posts/122037607",
       "note": "No longer needed, use ClassicCareers version"
     },
     "Midnitetech_Careers_Hacker": {
       "old": ["Midnitetech_Careers_Hacker.package", "Midnitetech_Careers_Hacker.ts4script"],
-      "replacement": "midnitetech_ClassicCareers_Hacker.package",
+      "replacement": "midnitetech_ClassicCareers_Hacker",
       "url": "https://www.patreon.com/posts/122037607",
       "note": "No longer needed, use ClassicCareers version"
     }
