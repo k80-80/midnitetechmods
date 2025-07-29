@@ -35,6 +35,12 @@
       "replacement": "midnitetech_ClassicCareers_Hacker",
       "url": "https://www.patreon.com/posts/122037607",
       "note": "No longer needed, use ClassicCareers version"
+      },
+    "midnitetech_Career_GameDev": {
+      "old": ["midnitetech_Career_GameDev"],
+      "replacement": "midnitetech_Career_SemiActive_GameDev",
+      "url": "https://www.patreon.com/posts/123913485",
+      "note": "Outdated version: You need the version with 'SemiActive' in the filename"
     }
   }
 }
