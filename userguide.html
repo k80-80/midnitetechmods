@@ -1,78 +1,51 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Clean Launcher User Guide</title>
+  <meta charset="UTF-8">
+  <title>Mod Installation & Requirements</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
   <style>
     :root {
-      --primary: #4581ff;
-      --primary-dark: #2360d2;
-      --accent: #54e7e2;
-      --bright: #63ffd6;
-      --bg: #f7fbff;
-      --card-bg: #fff;
-      --note-bg: linear-gradient(90deg, #63ffd6 0%, #54e7e2 40%, #4581ff 95%);
-      --note-color: #fff;
+      --bg-color: #f7fbff;
+      --text-color: #78a2b6;
+      --card-bg: #ffffff;
+      --highlight: #e7f2fb;
+      --border-accent: #89afc0;
+      --code-bg: #eef6fc;
+      --bg-color-tip: #fab96e;
+      --border-accent-tip: #fab96e;
+      --tip-bg: #ffe4d2;
+      --tip-color: #ef9300;
       --section-border: #b2dbff;
-      --shadow: 0 2px 16px #4581ff19;
-      --tip-bg: #e6f6ff;
-      --tip-color: #2360d2;
-      --text: #232646;
-      --link: #4581ff;
-      --link-hover: #63ffd6;
-      --footer-text: #7ea3c7;
-      --footer-muted: #b2dbff;
     }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: "Helvetica Now", "Helvetica Neue", Helvetica, Arial, sans-serif;
-      margin: 0;
-      padding: 22px 0 48px 0;
-      transition: background 0.35s, color 0.25s;
+
+    a:link, a:visited {
+    background-color: #89afc0;
+    color: white;
+    padding: 1px 3px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 8px;
+    transition: background 0.3s;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     }
-    .logo-title {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 18px;
-      margin-bottom: 8px;
+
+    a:hover, a:active {
+    background-color: #f7fbff;
     }
-    .logo-title img {
-      height: 56px;
-      border-radius: 14px;
-      box-shadow: 0 2px 8px #0002;
-      background: var(--card-bg);
-      padding: 4px;
+
+    body.dark {
+      --bg-color: #1e1e1e;
+      --text-color: #78a2b6;
+      --card-bg: #2c2c2c;
+      --highlight: #333c50;
+      --border-accent: #66aaff;
+      --code-bg: #444;
     }
-    .logo-title h1 {
-      color: var(--primary);
-      margin: 0;
-      font-size: 2.05em;
-      letter-spacing: 0.01em;
-      font-weight: 800;
-    }
-    @media (max-width: 500px) {
-      .logo-title img { height: 38px; }
-      .logo-title { gap: 9px; }
-      .logo-title h1 { font-size: 1.1em; }
-    }
-    .note {
-      color: var(--note-color);
-      background: var(--note-bg);
-      font-weight: bold;
-      margin-bottom: 24px;
-      margin-top: 16px;
-      font-size: 1.07em;
-      text-align: center;
-      border-radius: 14px;
-      box-shadow: 0 1px 12px #54e7e239;
-      padding: 10px 20px;
-      max-width: 720px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+    
     .section {
       background: var(--card-bg);
       border-radius: 18px;
@@ -85,306 +58,410 @@
       margin-right: auto;
       transition: background 0.3s, color 0.25s;
     }
-    @media (max-width: 700px) {
-      .section { padding: 16px 7vw; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      line-height: 1.7;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+      transition: background 0.3s, color 0.3s;
     }
-    @media (max-width: 400px) {
-      .section { padding: 12px 2vw; }
+
+    .card {
+      max-width: 800px;
+      background: var(--card-bg);
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: background 0.3s;
     }
-    .emoji { font-size: 1.2em; vertical-align: middle; }
-    ul, ol { margin-left: 24px; margin-bottom: 20px; }
-    li { margin-bottom: 16px; line-height: 1.55; }
-    a {
-      color: var(--link);
-      text-decoration: none;
-      transition: color 0.15s;
+
+    .logo-title img {
+      height: 56px;
+      border-radius: 14px;
+      background: var(--card-bg);
+      box-shadow: 0 2px 8px #0002;
+      padding: 4px;
     }
-    a:hover {
-      color: var(--link-hover);
-      text-decoration: underline;
+    
+    .logo-title h1 {
+      font-size: 1.9em;
+      font-weight: 800;
+      color: var(--primary);
+      margin: 0;
     }
-    .emoji-list {
-      list-style: none;
-      padding: 0;
-      margin-left: 0;
-    }
-    .emoji-list li {
-      display: block;
-      margin-bottom: 18px;
-      padding-left: 0;
-    }
-    .icon-title-row {
-      display: inline-flex;
+    
+    .logo-title {
+      display: flex;
       align-items: center;
-      gap: 0.38em;
-      min-width: 0;
-      /* Allow wrapping if absolutely needed on small screens */
+      justify-content: center;
+      gap: 18px;
+      margin-bottom: 24px;
     }
-    .emoji-list .emoji {
-      font-size: 1.28em;
-      margin-right: 0.10em;
-      width: 1.25em;
-      text-align: center;
-      vertical-align: middle;
-      flex-shrink: 0;
+
+    .toggle-container {
+      text-align: right;
+      margin-bottom: 10px;
     }
-    .emoji-list .feature-title {
-      font-weight: bold;
-      white-space: nowrap;
-      margin-right: 0.08em;
-      vertical-align: middle;
-      flex-shrink: 0;
+
+    .toggle-button {
+      background: var(--card-bg);
+      color: var(--text-color);
+      font-family: 'Montserrat', sans-serif;
+      border: 2px solid var(--border-accent);
+      padding: 6px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
     }
+
+    .toggle-button:hover {
+      background: var(--border-accent);
+      color: #fff;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin: 0 0 0.5em;
+    }
+
+    h2 {
+      font-size: 1.6em;
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 1.3em;
+      margin: 0;
+    }
+
+    .section-header {
+      background-color: var(--highlight);
+      border-left: 4px solid var(--border-accent);
+      padding: 10px 16px;
+      border-radius: 8px;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+ {
+      padding-left: 1.2em;
+    }
+
+    code {
+      background-color: var(--code-bg);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+
+    a {
+      color: var(--border-accent);
+      font-weight: 600;
+      text-decoration: underline;
+      transition: color 0.3s;
+    }
+
+    a:hover {
+      color: #2c6fc6;
+    }
+    
     .tip-box {
       background: var(--tip-bg);
       color: var(--tip-color);
-      border-radius: 10px;
-      margin: 26px auto 0 auto;
-      max-width: 430px;
-      padding: 10px 18px;
+      border-radius: 1px;
+      padding: 5px 18px;
       box-shadow: 0 1px 8px #54e7e216;
       text-align: center;
-      font-size: 1.06em;
+      font-size: .9em;
+      margin-bottom: 1.2em;
     }
-    .footer-icons img {
-      vertical-align: middle;
-      margin: 0 10px 0 0;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px #0001;
-      background: #fff;
-      padding: 2px;
-      transition: box-shadow 0.2s;
+
+    .tip {
+      background: var(--highlight);
+      border-left: 4px solid var(--border-accent);
+      padding: 12px 16px;
+      margin: 1em 0;
+      border-radius: 8px;
     }
-    .footer-icons img:hover {
-      box-shadow: 0 4px 16px var(--primary-dark)44;
+    
+    .section-emoji {
+      font-size: 2em;
     }
+
     .footer {
+      margin-top: 2em;
       text-align: center;
-      color: var(--footer-text);
-      font-size: 0.96em;
-      margin-top: 40px;
+      font-size: 1.1em;
     }
-    .footer a { color: var(--footer-text); }
-    .footer span { color: var(--footer-muted); }
-    /* --- DARK MODE --- */
-    body.dark {
-      --bg: #1a2036;
-      --card-bg: #23294d;
-      --note-bg: linear-gradient(90deg, #4581ff 10%, #54e7e2 90%);
-      --note-color: #fff;
-      --section-border: #3264aa;
-      --shadow: 0 2px 16px #4581ff38;
-      --tip-bg: #243063;
-      --tip-color: #54e7e2;
-      --text: #f6faff;
-      --link: #63ffd6;
-      --link-hover: #54e7e2;
-      --footer-text: #6cbcf9;
-      --footer-muted: #54e7e2;
+
+    .website-button {
+      display: inline-block;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 1.1em;
+      color: #f7fbff;
+      background-color: var(--highlight);
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.3s;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     }
-    .dark .logo-title h1 { color: #63ffd6; }
-    .dark .logo-title img { background: #23294d; }
-    /* Toggle Button */
-    .toggle-btn {
-      position: fixed;
-      top: 20px;
-      right: 26px;
-      z-index: 22;
-      background: var(--card-bg);
-      color: var(--primary);
-      border: 2px solid var(--primary);
-      border-radius: 20px;
-      font-weight: 700;
-      font-size: 1em;
-      box-shadow: 0 2px 8px #0002;
+
+    .website-button:hover {
+      background-color: #f7fbff;
+    }
+
+    details {
+      margin-bottom: 1.2em;
+      background-color: var(--highlight);
+      border-left: 4px solid var(--border-accent);
+      border-radius: 8px;
+      padding: 10px 14px;
+    }
+
+    summary {
       cursor: pointer;
-      padding: 7px 16px 7px 14px;
+      font-weight: bold;
+      font-size: 1.1em;
       display: flex;
       align-items: center;
       gap: 8px;
-      transition: background 0.25s, color 0.22s, border 0.19s;
     }
-    .toggle-btn:hover {
-      background: var(--primary);
-      color: #fff;
-      border-color: var(--bright);
+
+    summary::-webkit-details-marker {
+      display: none;
     }
-    @media (max-width: 700px) {
-      .toggle-btn { top: 14px; right: 8px; padding: 6px 13px 6px 11px; font-size: 0.99em;}
+
+    summary .arrow {
+      width: 10px;
+      height: 10px;
+      flex-shrink: 0;
+      transition: transform 0.25s ease;
+      fill: var(--text-color);
+    }
+
+    details[open] summary .arrow {
+      transform: rotate(90deg);
     }
   </style>
 </head>
 <body>
-  <button class="toggle-btn" onclick="toggleMode()" title="Toggle dark mode">
-    <span id="toggle-icon" style="font-size:1.2em;">🌙</span> <span id="toggle-label">Dark Mode</span>
-  </button>
-  <div class="logo-title">
-    <img src="https://i.ibb.co/8nvxKkS4/Clean-Launcher-Logo-2.png" alt="Clean Launcher Logo">
-    <h1>Clean Launcher User Guide</h1>
-  </div>
-
-  <div class="note">
-    ⚠️ <b>Before making any changes, always back up your <b>/Mods</b> folder using the <u>Backup</u> feature in <b>More Tools ➡️ Settings &amp; Utilities</b>. This helps protect your game if anything goes wrong.</b>
-  </div>
-
-  <div class="section">
-    <h2><span class="emoji">✨</span> Getting Started</h2>
-    <p>When you first open Clean Launcher, you'll be asked if you want to set up an <b>Auto Mods</b> folder and have <b>Clean Launcher</b> start with your computer.</p>
-    <p><b>Auto Mods</b> creates a new folder in <b>/Mods</b>. Any file, folder, or zip you add will be automatically extracted and/or sorted for you. If it's a <b>Tray</b> or <b>Save</b> file, it will be moved to the correct folder.</p>
-    <p>
-  It makes downloading sprees a breeze — you can right-click the folder, pin it to 
-  <a href="https://support.microsoft.com/en-gb/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1" target="_blank"><b>Quick Access</b></a>, 
-  and drag your downloads straight into it. All the sorting will be done for you. You can enable or disable this folder at any time in 
-  <b>More Tools ➡️ Settings &amp; Utilities</b>, or by right-clicking <b>Clean Launcher</b> in the tray. If you delete the folder without disabling it, it will regenerate automatically.
-</p>
-  </div>
-
-  <div class="section">
-    <h2><span class="emoji">🚀</span> Main Menu</h2>
-    <ul class="emoji-list">
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">🧹</span>
-          <span class="feature-title">Clean &amp; Launch Sims 4:</span>
-        </span>
-        <br>
-        Cleans cache and error logs, then launches The Sims 4—all in one click. You can also choose to only delete the cache on launch if your <b>/Mods</b> folder has changed! You can also choose a <b>Mods Profile</b> (see 👤<b>Manage Mod Profiles</b>) to switch up your CC for different gameplay styles.
-      </li>
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">🔎</span>
-          <span class="feature-title">Scan Mods Folder:</span>
-        </span>
-        <br>
-        Detect duplicates, hidden scripts, zipped files, missing files, and more. Fix them all with one click, or review each issue individually. When you run the tool, it will automatically scan your <b>/Mods</b> folder, and give you a summary of the issues it's found. You can then expand/collapse each section to view all the problems, <b>Fix Issues</b> one by one, or <b>Fix All</b> to automate the process.
-      </li>
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">📦</span>
-          <span class="feature-title">Drag &amp; Drop Mod Installer:</span>
-        </span>
-        <br>
-        Drag ZIPs or mod files into the installer, or browse for files—they’ll be automatically extracted and sorted into <b>Mods, Tray, or Saves</b>. Use it on it's own, or with <b>Auto Mods</b> depending on your mood! Personally, I use it for adding a ton of new Sims and Builds to my game, as those that come with CC will all be organized for you in a flash.
-      </li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2><span class="emoji">🛠️</span> More Tools️ ➡️ Settings &amp; Utilities</h2>
-    <ul class="emoji-list">
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">⚙️</span>
-          <span class="feature-title">Settings:</span>
-        </span>
-        <br>
-        Change your <b>/Mods</b> folder or game path, reset folder or path to default, reset launch settings, enable or disable <b>Auto Mods</b> folder, undo the last organize, or set <b>Clean Launcher</b> to start with Windows.
-      </li>
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">🗂️</span>
-          <span class="feature-title">Backup Mods, Saves &amp; Tray:</span>
-        </span>
-        <br>
-        Zip up your <b>Mods, Saves, or Tray</b> for safe backup, or to transfer to a new computer.
-      </li>
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">🧩</span>
-          <span class="feature-title">Organize Mods Folder:</span>
-        </span>
-        <br>
-        Automatically sort your <b>Mods</b> into simple, detailed, or custom categories (undo anytime). You can also edit the folder structure, by clicking <b>Custom</b>. In the next window, you can then toggle between editing the folder names, and the keywords. If you rename or move a parent folder, such as 'CAS', make sure you update all its subfolders too, so they match the new parent folder name or location.
-      </li>
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">👤</span>
-          <span class="feature-title">Manage Mod Profiles:</span>
-        </span>
-        <br>
-        Create different profiles for different playstyles, and switch between them easily. New CC is detected and you’ll be prompted to import before switching.
-      </li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2><span class="emoji">❓</span> Help & Online</h2>
-    <ul class="emoji-list">
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">📩</span>
-          <span class="feature-title">Contact Me &amp; Send Report:</span>
-        </span>
-        <br>
-        <b>Create Full Report</b> generates an easy-to-read snapshot of your <b>/Mods</b> folder, and your latest <b>LE</b> (lastException) if you have one. You can send it straight to me if you're having issues, or to another creator for troubleshooting! <b>Create Full Report</b> is also available in <b>Scan Mods Folder ➡️ More Help.</b>
-      </li>
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">🐞</span>
-          <span class="feature-title">Report a Bug:</span>
-        </span>
-        <br>
-        Found a bug? Click to report it—it only takes a couple of minutes! <a href="https://form.fillout.com/t/dADtqgpWMnus">Here's</a> a link to the report, too! 
-      </li>
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">📖</span>
-          <span class="feature-title">User Guide:</span>
-        </span>
-        <br>
-        You’re already here!
-      </li>
-      <li>
-        <span class="icon-title-row">
-          <span class="emoji">🌐</span>
-          <span class="feature-title">Visit midnitetechmods.com:</span>
-        </span>
-        <br>
-        Opens my <a href="https://midnitetechmods.com/">website</a> in your browser.
-      </li>
-    </ul>
-  </div>
-
-  <div class="tip-box">
-    <strong>Tip:</strong> Use the <strong>Backup</strong> feature regularly—especially before major Sims 4 updates or big Mods folder cleanups!
-  </div>
-
-  <div class="footer">
-    <div class="footer-icons">
-      <a href="https://www.patreon.com/c/midnitetech" target="_blank">
-        <img src="https://i.ibb.co/yFd9z0Kz/patreon-logo-png-seeklogo-503893.png" alt="Patreon" width="48" height="48" />
-      </a>
-      <a href="https://midnitetech.tumblr.com/">
-        <img src="https://i.ibb.co/vv14sxjD/free-tumblr-logo-icon-2434-thumb.png" alt="Tumblr" width="48" height="48" />
-      </a>
-      <a href="https://midnitetechmods.com/">
-        <img src="https://i.ibb.co/qLd9d3SR/myprofilepic.png" alt="Midnite Tech Mods" width="48" height="48" />
-      </a>
+  <div class="card">
+    <div class="toggle-container">
+      <button class="toggle-button" onclick="toggleMode()">🌓 Toggle Theme</button>
     </div>
-    <p><a href="mailto:themidnitetech@gmail.com">email me</a></p>
-    <span>
-      <a href="https://midnitetechmods.com/">midnitetechmods.com</a> &bull; v1.0.0
-    </span>
-  </div>
+
+    <div class="logo-title">
+  <img src="https://i.ibb.co/8nvxKkS4/Clean-Launcher-Logo-2.png" alt="Clean Launcher Logo">
+  <h1>Clean Launcher User Guide</h1>
+</div>
+
+
+       <div class="tip-box">
+    <strong>⚠️ Note:</strong> ⚠️ Before making any changes, always back up your /Mods folder using the Backup feature in More Tools ➡️ Settings & Utilities. This helps protect your game if anything goes wrong.<br /></p>
+    </div>
+    
+           <div class="section">
+           <h2><span class="emoji">✨</span> Getting Started</h2>
+    When you first open <strong>Clean Launcher</strong>, you'll be asked if you want to set up an <strong>Auto Mods</strong> folder.<br /><br /><strong>Auto Mods</strong> creates a new folder in <strong>/Mods</strong>. Any file, folder, or zip you add will be automatically extracted and/or sorted for you, as long as <strong>Clean Launcher</strong> is open, (it will run in the tray so it's not cluttering up your Desktop)! If it's a <strong>Tray</strong> or <strong>Save</strong> file, it will be moved to the correct folder.<br /><br />It makes downloading sprees a breeze — you can right-click the folder, pin it to <strong></strong><a href="https://support.microsoft.com/en-gb/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1"><strong>Quick Access</strong></a>, and drag your downloads straight into it. All the sorting will be done for you.<br /><br />You can enable or disable this folder at any time in <strong>More Tools ➡️ Settings & Utilities</strong>, or by right-clicking <strong>Clean Launcher</strong> in the tray. If you delete the folder without disabling it, it will regenerate automatically.<br /></p>
+    </div>
+
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>🧹  Clean &amp; Launch Sims 4</summary>
+
+
+<p data-start="298" data-end="426"><strong data-start="298" data-end="315">What it does:</strong> Cleans up leftover Sims 4 files (cache and error logs) and launches the game in one click.<br data-start="406" data-end="409" /><strong data-start="409" data-end="424">How to use:</strong></p>
+<ul data-start="427" data-end="844">
+<li data-start="427" data-end="532">
+<p data-start="429" data-end="532">Click <strong data-start="435" data-end="453">Clean &amp; Launch</strong> to delete cache files and any <strong data-start="485" data-end="502">lastException</strong> logs, then start The Sims 4.</p>
+</li>
+<li data-start="427" data-end="532">Don't want your game to update automatically? If you're using <strong>Steam</strong>, it remembers your offline status. The <strong>EA App</strong> doesn't, however, so use <strong>Clean &amp; Open EA App</strong> so you can set it to <strong>Offline Mode</strong> but still utilize the clean.</li>
+<li data-start="427" data-end="532">
+<p data-start="429" data-end="532">If you only want to clear the cache&nbsp;<strong data-start="571" data-end="607">when your&nbsp;<code data-start="583" data-end="590">/Mods</code>&nbsp;folder changes</strong>, you can enable this option on launch.</p>
+</li>
+<li data-start="533" data-end="649">Go to&nbsp;<strong>More Tools ➡ Settings to</strong>&nbsp;reset your launch settings at any time.</li>
+<li data-start="427" data-end="532">
+<p data-start="429" data-end="532">Before launching, you can optionally select a default <strong data-start="687" data-end="703">Mods Profile</strong> (see 👤 <strong>Manage Mod Profiles</strong>) to load a different CC setup&mdash;perfect for switching between gameplay styles like &ldquo;minimal mods&rdquo; vs. &ldquo;full CC.&rdquo;</p>
+</li>
+</ul>
+    </details>
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>🔎 Scan Mods</summary>
+
+<p data-start="876" data-end="962"><strong data-start="876" data-end="893">What it does:</strong> Finds and fixes problems in your <code data-start="927" data-end="934">/Mods</code> folder.<br data-start="942" data-end="945" /><strong data-start="945" data-end="960">How to use:</strong></p>
+<ul>
+<li data-start="965" data-end="1021">Click <strong data-start="971" data-end="991">Scan Mods Folder</strong> to automatically check for:
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li data-start="1026" data-end="1043">Duplicate files</li>
+<li data-start="1048" data-end="1064">Hidden scripts</li>
+<li data-start="1069" data-end="1095">Zipped/unextracted files</li>
+<li data-start="1100" data-end="1115">Missing files</li>
+<li data-start="1120" data-end="1148">Outdated* mods and more!<br /><br /></li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-start="1151" data-end="1204">After the scan, you&rsquo;ll get a summary of all issues.</li><br>
+<li data-start="1207" data-end="1249">Expand/collapse sections to see details.</li><br>
+<li data-start="1252" data-end="1345">Click <strong data-start="1258" data-end="1269">Fix All</strong> to solve everything at once, or <strong data-start="1302" data-end="1316">Fix Issues</strong> to handle them one by one.</li>
+</ul>
+<p>*Mainly covers my own mods and the big ones that need regular updates, like UI Cheats &amp; MCCC.</p>
+</ul>
+    </details>
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>📦 Drag &amp; Drop Mod Installer</summary>
+
+<p data-start="1386" data-end="1506"><strong data-start="1386" data-end="1403">What it does:</strong> Installs Sims 4 mods, builds, Sims, or saves instantly, to the correct folder&mdash;no manual sorting or extracting required.<br data-start="1486" data-end="1489" /><strong data-start="1489" data-end="1504">How to use:</strong></p>
+<ul>
+<li data-start="1507" data-end="1589">
+<p data-start="1509" data-end="1589">Drag ZIPs or files directly onto the installer window.</p>
+</li>
+<li data-start="1590" data-end="1701">
+<p data-start="1592" data-end="1622">Files will be automatically:</p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li data-start="1627" data-end="1650">Extracted (if zipped)</li>
+<li><strong>.ts4script</strong>s will be placed no more than 1 folder deep, and with their companion <strong>.package</strong> files.</li>
+<li data-start="1655" data-end="1701">Sorted into <strong data-start="1667" data-end="1675">Mods</strong>, <strong data-start="1677" data-end="1685">Tray</strong>, or <strong data-start="1690" data-end="1699">Saves</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-start="1702" data-end="1771">
+<p data-start="1704" data-end="1771">Works on its own or alongside <strong data-start="1735" data-end="1748">Auto Mods</strong>.</p>
+</li>
+<li data-start="1772" data-end="1879">
+<p data-start="1774" data-end="1879">Great for downloading lots of Sims/Builds at once&mdash;any CC they come with is organized for you instantly.</p>
+</li>
+</ul>
+    </details>
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>📁 Organize Mods</summary>
+
+<p data-start="2422" data-end="2520"><strong data-start="2422" data-end="2439">What it does:</strong> Sorts your Mods into a clean folder structure, with subcategories.<br data-start="2500" data-end="2503" /><strong data-start="2503" data-end="2518">How to use:</strong></p>
+<ul data-start="2521" data-end="2801">
+<li data-start="2521" data-end="2595">
+<p data-start="2523" data-end="2595">Choose <strong>Auto Mod Sort </strong>or&nbsp;<strong>Auto Mod Sort</strong> (<strong data-start="2559" data-end="2569">Custom)</strong>.</p>
+</li>
+<li data-start="2596" data-end="2683">
+<p data-start="2598" data-end="2683"><strong data-start="2598" data-end="2608">Custom</strong> mode lets you edit folder names and keywords that control where mods go. If you rename or move a parent folder (like &ldquo;CAS&rdquo;), update its subfolders so they match the new name or location.</p>
+</li>
+<li data-start="2596" data-end="2683">
+<p data-start="2598" data-end="2683"><strong data-start="2598" data-end="2608">Click 'n Sort</strong> is a brand new feature with preset categories and plenty of subfolder choices! All you do is click to view your Mods folder by <strong>All</strong> or by <strong>Folder</strong>, then select the ones you want to move, and click on a category to send them there instantly.</p>
+</li>
+<ul>
+<li>All features include the option to <strong>Undo</strong>, and deleted files are always sent to the <strong>Recycle Bin</strong> if possible.</li>
+</ul>
+<p><em>Note: I can&rsquo;t account for every single mod&mdash;creators all name their files differently, and some use a &ldquo;brand&rdquo; name instead of describing what the mod actually is. This means a few files might need manual sorting from the <strong>Review Bin</strong>, or you can edit the keywords in <strong>Custom</strong> mode..</em></p>
+</ul>
+    </details>
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>👤 Mod Profile Manager</summary>
+
+<p data-start="2836" data-end="2940"><strong data-start="2836" data-end="2853">What it does:</strong> Lets you save and switch between completely different Mods setups. When you first load it, it will back up your Mods folder securely, and that can never be overwritten.<br data-start="2920" data-end="2923" /><strong data-start="2923" data-end="2938">Why use it:</strong></p>
+<ul data-start="2941" data-end="3138">
+<li data-start="2941" data-end="3065">
+<p data-start="2943" data-end="3065">Keep separate profiles for different playstyles&mdash;e.g., &ldquo;<strong>Vanilla + Bug Fixes</strong>,&rdquo; &ldquo;<strong>Build Mode Only</strong>,&rdquo; or &ldquo;<strong>Full Gameplay Mods</strong>.&rdquo;</p>
+</li>
+<li data-start="3066" data-end="3138">
+<p data-start="3068" data-end="3138">Perfect if you want to try new CC without messing up your main save, or if you're using minimal mods during an update.</p>
+</li>
+</ul>
+<p data-start="3140" data-end="3157"><strong data-start="3140" data-end="3155">How to use:</strong></p>
+<ol data-start="3158" data-end="3654">
+<li data-start="3158" data-end="3225">
+<p data-start="3161" data-end="3225">Arrange your <code data-start="3174" data-end="3181">/Mods</code> folder how you want (add/remove content).</p>
+</li>
+
+<p data-start="3229" data-end="3286">Click <strong data-start="3235" data-end="3257">Create New Profile</strong>, give it a name, and save.</p>
+</li>
+<li data-start="3287" data-end="3578">
+<p data-start="3290" data-end="3302">To switch:</p>
+<ul data-start="3306" data-end="3578">
+<li data-start="3306" data-end="3372">
+<p data-start="3308" data-end="3372">Choose a profile from the dropdown and click <strong data-start="3353" data-end="3369">Load Profile</strong>.</p>
+</li>
+<li data-start="3376" data-end="3578">
+<p data-start="3378" data-end="3578">If new CC is detected since you last used that profile, you&rsquo;ll be prompted to <strong data-start="3456" data-end="3475">Import New Mods</strong> (adds the new files to the profile) or <strong data-start="3515" data-end="3534">Replace Profile</strong> (update it to match your current folder).</p>
+</li>
+</ul>
+</li>
+<li data-start="3579" data-end="3654">
+<p data-start="3582" data-end="3654">Your original mods are always backed up&mdash;check <strong data-start="3628" data-end="3651">More ➡ View Backups</strong>, and even replacing your <strong>Default Mods</strong> profile won't affect your original backup.</p>
+</li>
+</ol>
+    </details>
+    
+    
+    
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>🗂️ Backup Sims 4 Files</summary>
+
+<p><strong data-start="2836" data-end="2853">What it does:</strong> Lets you make a zipped backup of your<strong> Mods</strong>, <strong>Saves</strong>, and/or <strong>Tray</strong> folders&mdash;either all at once or just the ones you choose&mdash;saved to any location you pick. Access it under <strong>More Tools ➡ Settings &amp; Utilities</strong>.</p>
+<p data-start="318" data-end="335"><strong data-start="318" data-end="333">Why use it:</strong></p>
+<ul>
+<li data-start="339" data-end="391">Protect your game setup before making big changes.</li>
+<li data-start="394" data-end="455">Keep safe copies of your favorite builds, Sims, and saves.</li>
+<li data-start="458" data-end="523">Quickly restore everything if something breaks or gets deleted.</li>
+</ul>
+<p data-start="525" data-end="542"><strong data-start="525" data-end="540">How to use:</strong></p>
+<ol>
+<li data-start="547" data-end="621">Open <strong data-start="552" data-end="618">More Tools ➡ Settings &amp; Utilities ➡ Backup Files</strong>.</li>
+<li data-start="625" data-end="684">Select the folders you want to back up (Mods, Saves, Tray).</li>
+<li data-start="688" data-end="718">Choose your backup location&mdash;make<strong data-start="419" data-end="501">&nbsp;sure there&rsquo;s enough free space on your SSD, hard drive, or external drive</strong>.</li>
+<li data-start="722" data-end="798">Click <strong data-start="728" data-end="745">OK</strong>&mdash;a zipped copy will be saved to your chosen folder.</li>
+</ol>
+<p data-start="800" data-end="970">You can make as many backups as you like, with different names or dates. To restore, simply unzip your chosen backup and copy the contents back into your Sims 4 Mods folder.</p>
+    </details>
+    
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>💡 Troubleshooting</summary>
+<ul>
+<p data-start="165" data-end="323">🗂️ <strong data-start="169" data-end="205">Mods not organizing as expected?</strong><br data-start="205" data-end="208" />Switch to <strong data-start="218" data-end="251">Mod Folder Organizer (Custom)</strong> to edit the keyword lists yourself and fine-tune how mods are sorted.</p>
+<p data-start="325" data-end="660">📩 <strong data-start="328" data-end="342">Need help?</strong><br data-start="342" data-end="345" />Use <strong data-start="349" data-end="371">Create Full Report</strong> to generate an easy-to-read snapshot of your /Mods folder and your latest LE (lastException) file, if one exists.<br data-start="485" data-end="488" />You can send this directly to me for troubleshooting or share it with another creator.<br data-start="575" data-end="578" />Available via <strong data-start="592" data-end="627">🔍 Scan Mods Folder ➡ More Help</strong> and <strong data-start="632" data-end="657">More Tools ➡ Settings</strong>.</p>
+<p data-start="662" data-end="696">⚙️ <strong>Need to change Settings?<br /></strong>Find these under<strong> More Tools ➡ Settings</strong></p>
+<ul data-start="697" data-end="907">
+<li data-start="697" data-end="742">
+<p data-start="699" data-end="742">Set your /Mods folder or Sims 4 game path if the app can't find them, or if you've moved them</p>
+</li>
+<li data-start="743" data-end="789">
+<p data-start="745" data-end="789">Reset launch settings to default&nbsp;</p>
+</li>
+<li data-start="790" data-end="825">
+<p data-start="792" data-end="825">Enable/disable Auto Mods folder</p>
+</li>
+<li data-start="853" data-end="907">Undo the last <strong>Mod Organize</strong></li>
+</ul>
+<p data-start="909" data-end="1066">🐞 <strong data-start="912" data-end="928">Found a bug?</strong><br data-start="928" data-end="931" />Spotted a problem? Reporting it only takes a couple of minutes&mdash;click <strong data-start="1000" data-end="1016">Report a Bug</strong> under <strong data-start="1023" data-end="1048">More Tools ➡ Settings</strong>, or click <a href="https://midnitetechmods.com/contact"><strong>here</strong></a>.</p>
+<p data-start="909" data-end="1066">🔄 Auto Mods not unzipping/sorting? Ensure <strong>Clean Launcher</strong> is open. If you start the app, it'll run in the tray menu until you Exit or Shut Down. I removed the <em>start with windows</em> feature for ease of use.</p>
+<p data-start="1068" data-end="1334">🗑️ <strong data-start="1072" data-end="1093">Mods disappeared?</strong><br data-start="1093" data-end="1096" />Using <strong>Mod Organizer</strong>? Click <strong data-start="1123" data-end="1131">Undo</strong> (also under 🛠 <strong data-start="1147" data-end="1172">More Tools ➡ Settings</strong>).<br data-start="1174" data-end="1177" />Accidental deletion? Check your <strong data-start="1209" data-end="1224">Recycle Bin</strong>.<br data-start="1225" data-end="1228" />Using <strong data-start="1234" data-end="1257">Mod Profile Manager</strong>? Your original Mods are always backed up&mdash;check 📦 <strong data-start="1308" data-end="1331">More ➡ View Backups</strong>.</p>
+<p data-start="1336" data-end="1627">💡 <strong data-start="1339" data-end="1354">Other tips:</strong><br data-start="1354" data-end="1357" />💾 Keep backups of your Mods folder before making big changes.<br data-start="1419" data-end="1422" />🛡️ Use <strong data-start="1430" data-end="1450">Scan Mods Folder</strong> regularly to catch missing dependencies or outdated mods early.<br data-start="1514" data-end="1517" />📂 If <strong>Clean Launcher</strong> can&rsquo;t organize a file, it will place it in the <strong data-start="1585" data-end="1599">Review Bin</strong> for you to sort manually.</p>
+    </details>
+    
+
+    <div class="footer">
+    <div style="text-align: center; margin-top: 1em;">
+      <a href="https://midnitetechmods.com/" target="_blank" class="website-button">🌐 midnitetechmods.com</a>
+    </div>
+     <p style="text-align: center;">Happy Simming!<br>
+      <strong>~midnitetech</strong>💚<div style="text-align: center; margin-top: 1em;">
+
   <script>
-    // Simple dark mode toggle - stores preference in localStorage
     function toggleMode() {
       document.body.classList.toggle('dark');
-      const isDark = document.body.classList.contains('dark');
-      document.getElementById('toggle-icon').textContent = isDark ? '☀️' : '🌙';
-      document.getElementById('toggle-label').textContent = isDark ? 'Light Mode' : 'Dark Mode';
-      localStorage.setItem('cleanlauncher-theme', isDark ? 'dark' : 'light');
     }
-    // On load, respect saved preference or system preference
-    (function() {
-      const saved = localStorage.getItem('cleanlauncher-theme');
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if ((saved === 'dark') || (!saved && prefersDark)) {
-        document.body.classList.add('dark');
-        document.getElementById('toggle-icon').textContent = '☀️';
-        document.getElementById('toggle-label').textContent = 'Light Mode';
-      }
-    })();
   </script>
 </body>
 </html>
