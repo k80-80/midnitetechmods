@@ -1,0 +1,41 @@
+Clean Launcher Changelog
+
+17th August 2025: 
+
+Improved Archive Extraction:
+
+Extraction logic now preserves folder structure for mods and companion files
+
+.ts4script files and their companion files are kept together
+
+Consistent GUI Layouts:
+
+Ensured buttons and dialogs are centered and visually consistent across different screen sizes and DPI settings.
+
+Matched the look of subcategory dialogs in Mod Sorter’s folder view to the main category dialogs.
+
+Bug Fixes and Stability:
+
+Fixed error handling for destroyed controls and timers.
+
+Improved error log viewing and deletion workflow.
+
+
+25th July 2025: 
+
+Replaced the installer version with the new portable one. Unfortunately, too many people aren't reading the instructions, and I'm trying to make it easy on everyone. TL;DR: Download to any folder you're willing to keep it in, like Documents, Unzip, Double Click 'Run Clean Launcher'.
+
+
+23rd July 2025: 
+
+Added a portable version that runs without installing anything or triggering antivirus.
+
+
+17th July 2025: 
+
+(Sorry uploaded the wrong one)! Made the backup function more robust, and added a progress bar to Scan Mods Folder (if you have a huuuge amount of mods, it won't just sit there now). Microsoft etc. have cleared it too, so you shouldn't get any virus errors. IF you do, let me know what antivirus you're using, and I'll submit it to them. 15th July 2025: Overhauled the entire UI, and improved the logic for every function. Added Mod Profiles, so you can switch between cc-lite, and I-just-downloaded-a-YouTubers-100GB-folder hell whenever you like! I've improved the report feature (it's actually pretty now), and I've updated the User Guide so you can peruse all the features. You can find the User Guide under More Tools → Help & Online.
+
+
+29th June 2025: 
+
+Added language support, better folder organization & an update checker (it will now tell you if a new version of the app is available, as I'll probably be making a few changes whilst it's in beta)!
