@@ -1,4 +1,6 @@
-v1.2.1
+v1.3.0
 https://www.patreon.com/posts/132298964
- I've made some UI fixes and quality-of-life tweaks, and made backup features more robust! I hope you like it!
+I've made a bunch of changes, removing redundant or partially-working features. 
+Everything Clean Launcher includes now works as expected.
+
  ~midnitetech
