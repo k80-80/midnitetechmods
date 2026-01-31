@@ -4,13 +4,13 @@
       "old": ["midnitetech_Career_HHC.package"],
       "replacement": "midnitetech_Career_SemiActive_HHC",
       "url": "https://www.patreon.com/posts/holistic-health-117561715?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
-      "note": "You need the version with 'SemiActive' in the filename"
+      "note": "New Version Available"
     },
     "midnitetech_Career_Librarian": {
       "old": ["midnitetech_Career_Librarian.package", "midnitetech_Career_Librarian.ts4script"],
       "replacement": "midnitetech_Career_SemiActive_Librarian",
       "url": "https://www.patreon.com/posts/librarian-career-110646387?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
-      "note": "You need the version with 'SemiActive' in the filename"
+      "note": "New Version Available"
     },
     "Midnitetech_Careers_RealEstate": {
       "old": ["Midnitetech_Careers_RealEstate.package", "Midnitetech_Careers_RealEstate.ts4script"],
@@ -116,4 +116,5 @@
     }
   }
 }
+
 
