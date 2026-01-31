@@ -41,9 +41,16 @@
       "replacement": "midnitetech_Career_SemiActive_GameDev",
       "url": "https://www.patreon.com/posts/123913485",
       "note": "You need the version with 'SemiActive' in the filename"
+    },
+    "Midnitetech_Careers_": {
+      "old": ["Midnitetech_Careers_LiteraryPublicist.package", "Midnitetech_Careers_LiteraryPublicist.ts4script"],
+      "replacement": "midnitetech_ClassicCareers_LiteraryPublicist",
+      "url": "https://www.patreon.com/posts/149335778",
+      "note": "No longer needed, use ClassicCareers version"
     }
   }
 }
+
 
 
 
