@@ -16,25 +16,25 @@
       "old": ["Midnitetech_Careers_RealEstate.package", "Midnitetech_Careers_RealEstate.ts4script"],
       "replacement": "midnitetech_ClassicCareers_RealEstate",
       "url": "https://www.patreon.com/posts/122037607",
-      "note": "No longer needed, use ClassicCareers version"
+      "note": "New Version Available"
     },
     "Midnitetech_Careers_Banking": {
       "old": ["Midnitetech_Careers_Banking.package", "Midnitetech_Careers_Banking.ts4script"],
       "replacement": "midnitetech_ClassicCareers_Banking",
       "url": "https://www.patreon.com/posts/122037607",
-      "note": "No longer needed, use ClassicCareers version"
+      "note": "New Version Available"
     },
     "Midnitetech_Careers_HumanResourcesSpecialist": {
       "old": ["Midnitetech_Careers_HumanResourcesSpecialist.package", "Midnitetech_Careers_HumanResourcesSpecialist.ts4script"],
-      "replacement": "midnitetech_ClassicCareers_Banking",
+      "replacement": "midnitetech_ClassicCareers_HR",
       "url": "https://www.patreon.com/posts/122037607",
-      "note": "No longer needed, use ClassicCareers version"
+      "note": "New Version Available"
     },
     "Midnitetech_Careers_Hacker": {
       "old": ["Midnitetech_Careers_Hacker.package", "Midnitetech_Careers_Hacker.ts4script"],
       "replacement": "midnitetech_ClassicCareers_Hacker",
       "url": "https://www.patreon.com/posts/122037607",
-      "note": "No longer needed, use ClassicCareers version"
+      "note": "New Version Available"
       },
     "midnitetech_Career_GameDev": {
       "old": ["midnitetech_Career_GameDev.package"],
@@ -42,15 +42,78 @@
       "url": "https://www.patreon.com/posts/123913485",
       "note": "You need the version with 'SemiActive' in the filename"
     },
-    "Midnitetech_Careers_": {
+    "Midnitetech_Careers_GraphicDesign": {
+      "old": ["Midnitetech_Careers_GraphicDesign.package", "Midnitetech_Careers_GraphicDesign.ts4script"],
+      "replacement": "midnitetech_Career_Freelancer_3DModeler",
+      "url": "https://www.patreon.com/posts/freelance-3d-111545916",
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_LiteraryPublicist": {
       "old": ["Midnitetech_Careers_LiteraryPublicist.package", "Midnitetech_Careers_LiteraryPublicist.ts4script"],
       "replacement": "midnitetech_ClassicCareers_LiteraryPublicist",
       "url": "https://www.patreon.com/posts/149335778",
-      "note": "No longer needed, use ClassicCareers version"
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_WebAdmin": {
+      "old": ["Midnitetech_Careers_WebAdmin.package", "Midnitetech_Careers_WebAdmin.ts4script"],
+      "replacement": "midnitetech_ClassicCareers_IT",
+      "url": "https://www.patreon.com/posts/classic-career-1-122037607",
+      "note": "New Version Available"
+    },
+     "Midnitetech_Careers_UniversityPAID": {
+      "old": ["Midnitetech_Careers_UniversityPAID.package", "Midnitetech_Careers_UniversityPAID.ts4script"],
+      "replacement": "midnitetech_SimU_AcademicLife",
+      "url": "https://www.patreon.com/posts/148619730",
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_UniversityUNPAID": {
+      "old": ["Midnitetech_Careers_UniversityUNPAID.package", "Midnitetech_Careers_UniversityUNPAID.ts4script"],
+      "replacement": "midnitetech_SimU_AcademicLife",
+      "url": "https://www.patreon.com/posts/148619730",
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_SaturdayJobs": {
+      "old": ["Midnitetech_Careers_SaturdayJobs.package", "Midnitetech_Careers_SaturdayJobs.ts4script"],
+      "replacement": "midnitetech_Career_SaturdaySolutions_PartTime_Pack",
+      "url": "https://www.patreon.com/posts/128375289",
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_Pharmacist": {
+      "old": ["Midnitetech_Careers_Pharmacist.package", "Midnitetech_Careers_Pharmacist.ts4script"],
+      "replacement": "midnitetech_ClassicCareers_Pharmacist",
+      "url": "https://www.patreon.com/posts/139108219",
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_PartTimeAgency": {
+      "old": ["Midnitetech_Careers_PartTimeAgency.package", "Midnitetech_Careers_PartTimeAgency.ts4script"],
+      "replacement": "midnitetech_Career_Flex_PartTime_Pack",
+      "url": "https://www.patreon.com/posts/flex-part-time-102582002",
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_NightShiftPack": {
+      "old": ["Midnitetech_Careers_NightShiftPack.package", "Midnitetech_Careers_NightShiftPack.ts4script"],
+      "replacement": "midnitetech_Career_AllHoursAgency_Pack",
+      "url": "https://www.patreon.com/posts/all-hours-full-103336939",
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_ComicsGraphicNovels": {
+      "old": ["Midnitetech_Careers_ComicsGraphicNovels.package", "Midnitetech_Careers_ComicsGraphicNovels.ts4script"],
+      "replacement": "midnitetech_Career_SemiActive_SequentialArt_Pack",
+      "url": "https://www.patreon.com/posts/sequential-art-107834810",
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_Chiropractor": {
+      "old": ["Midnitetech_Careers_Chiropractor.package", "Midnitetech_Careers_Chiropractor.ts4script"],
+      "replacement": "midnitetech_Career_SemiActive_ChiropractorCareer",
+      "url": "https://www.patreon.com/posts/115692611",
+      "note": "New Version Available"
+    },
+    "Midnitetech_Careers_95CareerPack": {
+      "old": ["Midnitetech_Careers_95CareerPack.package", "Midnitetech_Careers_95CareerPack.ts4script"],
+      "replacement": "midnitetech_Career_SemiActive_Storytelling_Pack",
+      "url": "https://www.patreon.com/posts/storytelling-110155789",
+      "note": "New Version Available"
     }
   }
 }
-
-
-
 
