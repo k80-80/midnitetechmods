@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,19 +21,19 @@
     }
 
     a:link, a:visited {
-    background-color: #89afc0;
-    color: white;
-    padding: 1px 3px;
-    text-align: left;
-    text-decoration: none;
-    display: inline-block;
-    border-radius: 8px;
-    transition: background 0.3s;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+      background-color: #89afc0;
+      color: white;
+      padding: 1px 3px;
+      text-align: left;
+      text-decoration: none;
+      display: inline-block;
+      border-radius: 8px;
+      transition: background 0.3s;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     }
 
     a:hover, a:active {
-    background-color: #f7fbff;
+      background-color: #f7fbff;
     }
 
     body.dark {
@@ -45,7 +44,7 @@
       --border-accent: #66aaff;
       --code-bg: #444;
     }
-    
+
     .section {
       background: var(--card-bg);
       border-radius: 18px;
@@ -87,14 +86,14 @@
       box-shadow: 0 2px 8px #0002;
       padding: 4px;
     }
-    
+
     .logo-title h1 {
       font-size: 1.9em;
       font-weight: 800;
       color: var(--primary);
       margin: 0;
     }
-    
+
     .logo-title {
       display: flex;
       align-items: center;
@@ -124,36 +123,11 @@
       color: #fff;
     }
 
-    h1 {
-      font-size: 2em;
-      margin: 0 0 0.5em;
-    }
+    h1 { font-size: 2em; margin: 0 0 0.5em; }
+    h2 { font-size: 1.6em; margin: 0; }
+    h3 { font-size: 1.3em; margin: 0; }
 
-    h2 {
-      font-size: 1.6em;
-      margin: 0;
-    }
-
-    h3 {
-      font-size: 1.3em;
-      margin: 0;
-    }
-
-    .section-header {
-      background-color: var(--highlight);
-      border-left: 4px solid var(--border-accent);
-      padding: 10px 16px;
-      border-radius: 8px;
-      margin-top: 2em;
-      margin-bottom: 1em;
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
-    
-ul {
-  padding-left: 1.2em;
-}
+    ul { padding-left: 1.2em; }
 
     code {
       background-color: var(--code-bg);
@@ -162,17 +136,6 @@ ul {
       font-size: 0.9em;
     }
 
-    a {
-      color: var(--border-accent);
-      font-weight: 600;
-      text-decoration: underline;
-      transition: color 0.3s;
-    }
-
-    a:hover {
-      color: #2c6fc6;
-    }
-    
     .tip-box {
       background: var(--tip-bg);
       color: var(--tip-color);
@@ -182,42 +145,6 @@ ul {
       text-align: center;
       font-size: .9em;
       margin-bottom: 1.2em;
-    }
-
-    .tip {
-      background: var(--highlight);
-      border-left: 4px solid var(--border-accent);
-      padding: 12px 16px;
-      margin: 1em 0;
-      border-radius: 8px;
-    }
-    
-    .section-emoji {
-      font-size: 2em;
-    }
-
-    .footer {
-      margin-top: 2em;
-      text-align: center;
-      font-size: 1.1em;
-    }
-
-    .website-button {
-      display: inline-block;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold;
-      font-size: 1.1em;
-      color: #f7fbff;
-      background-color: var(--highlight);
-      padding: 12px 20px;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: background 0.3s;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    }
-
-    .website-button:hover {
-      background-color: #f7fbff;
     }
 
     details {
@@ -237,9 +164,7 @@ ul {
       gap: 8px;
     }
 
-    summary::-webkit-details-marker {
-      display: none;
-    }
+    summary::-webkit-details-marker { display: none; }
 
     summary .arrow {
       width: 10px;
@@ -254,444 +179,120 @@ ul {
     }
   </style>
 </head>
+
 <body>
-  <div class="card">
-    <div class="toggle-container">
-      <button class="toggle-button" onclick="toggleMode()">🌓 Toggle Theme</button>
-    </div>
+<div class="card">
 
-    <div class="logo-title">
-  <img src="https://i.ibb.co/8nvxKkS4/Clean-Launcher-Logo-2.png" alt="Clean Launcher Logo">
-  <h1>Clean Launcher User Guide</h1>
+  <div class="toggle-container">
+    <button class="toggle-button" onclick="toggleMode()">🌓 Toggle Theme</button>
+  </div>
+
+  <div class="logo-title">
+    <img src="https://i.ibb.co/8nvxKkS4/Clean-Launcher-Logo-2.png" alt="Clean Launcher Logo">
+    <h1>Clean Launcher User Guide</h1>
+  </div>
+
+  <div class="tip-box">
+    <strong>⚠️ Note:</strong>
+    Back up your <strong>/Mods</strong> folder before making changes.
+  </div>
+
+  <div class="section">
+    <h2>✨ Getting Started</h2>
+
+    <p>
+      On first launch, <strong>Clean Launcher</strong> can create an <strong>Auto Mods</strong> folder inside your
+      <strong>/Mods</strong> directory.
+      Anything placed inside, from zips to .ts4scripts to Tray files,
+      will be automatically extracted and sorted while the app runs in the system tray.
+    </p>
+
+    <p>
+      For easy drag-and-drop access, you can pin <strong>Auto Mods</strong> to
+      <strong>Windows Quick Access</strong>.
+      Files stay there, ready to test or organise.
+    </p>
+
+    <p>
+      To remove <strong>Auto Mods</strong>, disable it in <strong>Settings</strong> or from the tray icon.
+      Deleting the folder manually will cause it to be recreated.
+    </p>
+  </div>
+
+  <details>
+    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 🧹 Clean &amp; Launch Sims 4</summary>
+    <ul>
+      Cleans cache files and error logs, then launches The Sims 4 in one click.<br><br>
+      You can optionally clear only the cache when your <b>/Mods</b> folder has changed, and select a Mods Profile
+      to quickly switch between different CC and gameplay setups.
+    </ul>
+  </details>
+
+  <details>
+    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 🔎 Scan Mods</summary>
+    <ul>
+      Scans your <b>/Mods</b> folder for common issues such as duplicate files, hidden scripts,
+      zipped mods, missing files, and more.<br><br>
+      Dependency and update checks currently cover <b>midnitetech</b> mods,
+      <b>UI Cheats</b>, and <b>Lot 51’s Core Library</b>.
+    </ul>
+  </details>
+
+  <details>
+    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 📁 Organize Mods</summary>
+    <ul>
+      View your Mods folder as a live folder tree.
+      Drag and drop files to move them, Ctrl+click to select multiple items,
+      create or delete folders, and undo accidental changes.
+    </ul>
+  </details>
+
+  <details>
+    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 👤 Mod Profile Manager</summary>
+    <ul>
+      Create different profiles for different playstyles and switch between them easily.
+      If new mods are detected, you’ll be prompted before switching.
+      Your original Mods are always backed up safely, and stored outside of your game folders.
+    </ul>
+  </details>
+
+  <details>
+    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 🗂️ Backup Sims 4 Files</summary>
+    <ul>
+      Creates ZIP backups of your <b>Mods</b>, <b>Saves</b>, and <b>Tray</b> folders.
+      Ideal before reorganizing, updating your game, or swapping between PCs.
+    </ul>
+  </details>
+
+  <details>
+    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 🗑️ Remove Clean Launcher</summary>
+    <ul>
+      Uninstall via <b>Add/Remove Programs</b>.
+      Exit Clean Launcher first using the tray icon.
+      Auto-start options can be removed from <b>Settings</b> or <b>Startup Apps</b>.
+    </ul>
+  </details>
+
+  <details>
+    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 💡 Troubleshooting</summary>
+    <ul>
+      Clean Launcher does not permanently delete mods without warning and does not block your game from launching.
+      If Auto Mods is not sorting, ensure the tray icon is visible.
+    </ul>
+  </details>
+
+  <div class="footer" style="text-align:center;">
+    <a href="https://midnitetechmods.com/" target="_blank" class="website-button">🌐 midnitetechmods.com</a>
+    <p>Happy Simming!<br><strong>~midnitetech</strong> 💚</p>
+  </div>
+
 </div>
 
-      <div class="tip-box">
-  <strong>⚠️ Note:</strong>
-  Back up your <strong>/Mods</strong> folder before making changes.
-  <strong>Undo is always available</strong>, and deleted files go to the Recycle Bin where possible.
-</div>
-    
-           <div class="section">
-  <h2><span class="emoji">✨</span> Getting Started</h2>
+<script>
+  function toggleMode() {
+    document.body.classList.toggle('dark');
+  }
+</script>
 
-  <p>
-    On first launch, <strong>Clean Launcher</strong> can create an <strong>Auto Mods</strong> folder.
-    Anything you drop inside — files, folders, or ZIPs — is <strong>automatically extracted and sorted</strong>
-    while the app runs in your tray.
-  </p>
-
-  <p>
-    For easy drag-and-drop, pin <strong>Auto Mods</strong> to
-    <strong><a href="https://support.microsoft.com/en-gb/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1">Windows Quick Access</a></strong>.
-    Files stay there, ready to test or organize.
-  </p>
-
-  <p>
-    To remove <strong>Auto Mods</strong>, <strong>turn it off in Settings or from the tray icon</strong>.
-    Deleting the folder alone will cause it to be recreated.
-  </p>
-</div>
-
-    <details>
-  <summary>
-    <svg class="arrow" viewBox="0 0 8 8">
-      <path d="M0 0 L6 4 L0 8 Z"/>
-    </svg>
-    🧹 Clean &amp; Launch Sims 4
-  </summary>
-
-  <p>
-    <strong>What it does:</strong>
-    Clears Sims 4 cache and error logs, then launches the game.
-  </p>
-
-  <ul>
-    <li>
-      Click <strong>Clean &amp; Launch</strong> to delete cache files and any
-      <strong>lastException</strong> logs, then start The Sims 4.
-    </li>
-
-    <li>
-      Want to prevent game updates?
-      <strong>Steam</strong> remembers Offline Mode.
-      For the <strong>EA App</strong>, use
-      <strong>Clean &amp; Open EA App</strong> and set it to <strong>Offline Mode</strong>.
-    </li>
-
-    <li>
-      Optional: only clear cache when your <code>/Mods</code> folder changes.
-    </li>
-
-    <li>
-      Optional: choose a <strong>Mods Profile</strong> before launching to switch mod setups.
-    </li>
-
-    <li>
-      Reset launch options anytime via
-      <strong>More Tools ➡ Settings</strong>.
-    </li>
-  </ul>
-</details>
-
-    <details>
-  <summary>
-    <svg class="arrow" viewBox="0 0 8 8">
-      <path d="M0 0 L6 4 L0 8 Z"/>
-    </svg>
-    🔎 Scan Mods
-  </summary>
-
-  <p>
-    <strong>What it does:</strong>
-    Scans your <code>/Mods</code> folder and finds common issues.
-  </p>
-
-  <ul>
-    <li>
-      Click <strong>Scan Mods Folder</strong>.
-    </li>
-
-    <li>
-      The scan checks for:
-      <ul>
-        <li>Duplicate files</li>
-        <li>Hidden scripts</li>
-        <li>Zipped or unextracted mods</li>
-        <li>Missing files</li>
-        <li>Outdated mods*</li>
-      </ul>
-    </li>
-
-    <li>
-      After the scan, you’ll see a summary of issues.
-      Click sections to see details.
-    </li>
-
-    <li>
-      Click <strong>Fix All</strong> to resolve everything automatically,
-      or <strong>Fix Issues</strong> to review them one by one.
-    </li>
-  </ul>
-
-  <p>
-    <em>*Outdated checks covers my mods only.</em>
-  </p>
-</details>
-
-   <details>
-  <summary>
-    <svg class="arrow" viewBox="0 0 8 8">
-      <path d="M0 0 L6 4 L0 8 Z"/>
-    </svg>
-    📦 Drag &amp; Drop Mod Installer
-  </summary>
-
-  <p>
-    <strong>What it does:</strong>
-    Installs mods, builds, Sims, or saves to the correct folder automatically.
-  </p>
-
-  <ul>
-    <li>
-      Drag ZIP files or loose files directly onto the installer window.
-    </li>
-
-    <li>
-      Files are automatically:
-      <ul>
-        <li>Extracted (if zipped)</li>
-        <li>Placed in <strong>Mods</strong>, <strong>Tray</strong>, or <strong>Saves</strong></li>
-        <li>Kept script-safe (<strong>.ts4script</strong> files stay no more than 1 folder deep)</li>
-      </ul>
-    </li>
-
-    <li>
-      Works on its own or alongside <strong>Auto Mods</strong>.
-    </li>
-
-    <li>
-      Perfect for bulk downloads — any included CC is sorted instantly.
-    </li>
-  </ul>
-</details>
-
-    <details>
-  <summary>
-    <svg class="arrow" viewBox="0 0 8 8">
-      <path d="M0 0 L6 4 L0 8 Z"/>
-    </svg>
-    📁 Organize Mods
-  </summary>
-
-  <p>
-    <strong>What it does:</strong>
-    Sorts your Mods into a clean folder structure with subcategories.
-  </p>
-
-  <p>
-    <strong>Nothing is permanent.</strong> Every organize action can be undone.
-  </p>
-
-  <ul>
-    <li>
-      Choose <strong>Auto Mod Sort</strong> or <strong>Auto Mod Sort (Custom)</strong>.
-    </li>
-
-    <li>
-      <strong>Custom</strong> mode lets you edit folder names and keyword rules.
-      If you rename a main folder (for example, “CAS”), update its subfolders to match.
-    </li>
-
-    <li>
-      <strong>Click ’n Sort</strong> lets you manually select files and click a category
-      to move them instantly. View mods by <strong>All</strong> or by <strong>Folder</strong>.
-    </li>
-
-    <li>
-      <strong>Undo is always available:</strong>
-      <strong>More Tools ➡ Settings ➡ Undo Mod Organize</strong>.
-    </li>
-
-    <li>
-      Deleted files are sent to the <strong>Recycle Bin</strong> whenever possible.
-    </li>
-  </ul>
-
-  <p>
-    <em>
-      If a file can’t be confidently categorized, it’s placed in the
-      <strong>Review Bin</strong> for manual sorting.
-    </em>
-  </p>
-</details>
-
-    <details>
-  <summary>
-    <svg class="arrow" viewBox="0 0 8 8">
-      <path d="M0 0 L6 4 L0 8 Z"/>
-    </svg>
-    👤 Mod Profile Manager
-  </summary>
-
-  <p>
-    <strong>What it does:</strong>
-    Lets you save and switch between different Mods setups.
-  </p>
-
-  <p>
-    <strong>Your original Mods are always backed up.</strong>
-    The first backup can never be overwritten.
-  </p>
-
-  <ul>
-    <li>
-      Use profiles for different playstyles
-      (for example: <strong>Vanilla</strong>, <strong>Build Mode</strong>, or <strong>Full Mods</strong>).
-    </li>
-
-    <li>
-      Great for testing new CC or playing with minimal mods during updates.
-    </li>
-  </ul>
-
-  <p><strong>How to use:</strong></p>
-
-  <ol>
-    <li>
-      Arrange your <code>/Mods</code> folder how you want.
-    </li>
-
-    <li>
-      Click <strong>Create New Profile</strong>, name it, and save.
-    </li>
-
-    <li>
-      To switch profiles, select one and click <strong>Load Profile</strong>.
-    </li>
-
-    <li>
-      If new mods are detected, choose
-      <strong>Import New Mods</strong> or <strong>Replace Profile</strong>.
-    </li>
-  </ol>
-
-  <p>
-    You can always restore your original Mods via
-    <strong>More ➡ View Backups</strong>.
-  </p>
-</details>
-    
-    <details>
-  <summary>
-    <svg class="arrow" viewBox="0 0 8 8">
-      <path d="M0 0 L6 4 L0 8 Z"/>
-    </svg>
-    🗂️ Backup Sims 4 Files
-  </summary>
-
-  <p>
-    <strong>What it does:</strong>
-    Creates a zipped backup of your <strong>Mods</strong>, <strong>Saves</strong>,
-    and/or <strong>Tray</strong> folders.
-  </p>
-
-  <p>
-    <strong>Why use it:</strong>
-    Protects your game before organizing mods, testing CC, or updating.
-  </p>
-
-  <p><strong>How to use:</strong></p>
-
-  <ol>
-    <li>
-      Open <strong>More Tools ➡ Settings &amp; Utilities ➡ Backup Files</strong>.
-    </li>
-
-    <li>
-      Select what you want to back up (Mods, Saves, Tray).
-    </li>
-
-    <li>
-      Choose a backup location with enough free space.
-    </li>
-
-    <li>
-      Click <strong>OK</strong>.
-    </li>
-  </ol>
-
-  <p>
-    To restore, unzip the backup and copy the contents back into your Sims 4 folders.
-  </p>
-
-  <p>
-    You can create as many backups as you like.
-  </p>
-</details>
-
-    <details>
-  <summary>
-    <svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>
-    🗑️ Remove Clean Launcher
-  </summary>
-
-  <p><strong>Clean Launcher is portable — deleting it fully removes it.</strong></p>
-
-  <ul>
-    <li>
-      Right-click the tray icon (near the clock) and choose
-      <strong>Open Installation Folder</strong>.
-    </li>
-
-    <li>
-      <strong>Delete the entire folder.</strong> That’s it.
-    </li>
-
-    <li>
-      If it starts with Windows, remove any shortcuts from:
-      <code>shell:start menu</code> or disable it via
-      <strong>Task Manager ➡ Startup Apps</strong>.
-    </li>
-  </ul>
-</details>
-<details>
-  <summary>
-    <svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>
-    🔁 Start Clean Launcher with Windows
-  </summary>
-
-  <p>
-    <strong>Clean Launcher does not auto-start by default.</strong>
-    If you want <strong>Auto Mods</strong> to work all the time, you can add it to Windows startup manually.
-  </p>
-
-  <ol>
-    <li>
-      Right-click <strong>Clean Launcher.exe</strong> and choose
-      <strong>Send to ➡ Desktop (create shortcut)</strong>.
-    </li>
-
-    <li>
-      Press <strong>Win + R</strong>, type <code>shell:startup</code>, and press <strong>Enter</strong>.
-    </li>
-
-    <li>
-      Drag (or copy &amp; paste) the <strong>Clean Launcher shortcut</strong> into that folder.
-    </li>
-  </ol>
-
-  <p>
-    That’s it. Clean Launcher will now start with Windows and run in the tray.
-  </p>
-
-  <p>
-    <em>
-      To remove it from startup, delete the shortcut from the same folder or disable it via
-      <strong>Task Manager ➡ Startup Apps</strong>.
-    </em>
-  </p>
-</details>
-
-<details>
-  <summary>
-    <svg class="arrow" viewBox="0 0 8 8">
-      <path d="M0 0 L6 4 L0 8 Z"/>
-    </svg>
-    💡 Troubleshooting
-  </summary>
-
-  <p>
-    <strong>Most issues are reversible.</strong>
-    Clean Launcher does not permanently delete mods without warning you. It does not prevent your game from launching.
-  </p>
-
-  <p>
-    🗂️ <strong>Mods not organizing as expected?</strong><br>
-    Use <strong>Organize Mods (Custom)</strong> to adjust keywords and folder rules.
-  </p>
-
-  <p>
-    🗑️ <strong>Mods disappeared?</strong><br>
-    Used <strong>Organize Mods</strong>? Click <strong>Undo</strong> under
-    <strong>More Tools ➡ Settings</strong>.<br>
-    Accidentally deleted something? Check your <strong>Recycle Bin</strong>.<br>
-    Using <strong>Mod Profile Manager</strong>? Restore via
-    <strong>More ➡ View Backups</strong>.
-  </p>
-
-  <p>
-    🔄 <strong>Auto Mods not sorting?</strong><br>
-    Make sure <strong>Clean Launcher is running</strong> (tray icon visible).
-  </p>
-
-  <p>
-    ⚙️ <strong>Need to change Settings?</strong><br>
-    Find everything under <strong>More Tools ➡ Settings</strong>.
-  </p>
-
-  <p>
-    🐞 <strong>Found a bug?</strong><br>
-    Use <strong>Report a Bug</strong> under <strong>More Tools ➡ Settings</strong>
-    or click <a href="https://midnitetechmods.com/contact"><strong>here</strong></a>.
-  </p>
-
-  <p>
-    💾 <strong>Tip:</strong>
-    Make backups before big changes and use <strong>Scan Mods</strong> regularly.
-  </p>
-</details>
-
-    <div class="footer">
-    <div style="text-align: center; margin-top: 1em;">
-      <a href="https://midnitetechmods.com/" target="_blank" class="website-button">🌐 midnitetechmods.com</a>
-    </div>
-     <p style="text-align: center;">Happy Simming!<br>
-      <strong>~midnitetech</strong>💚<div style="text-align: center; margin-top: 1em;">
-
-  <script>
-    function toggleMode() {
-      document.body.classList.toggle('dark');
-    }
-  </script>
 </body>
 </html>
