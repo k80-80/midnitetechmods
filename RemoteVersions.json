@@ -1,66 +1,142 @@
 {
-    "UI_Cheats_": {
-        "filedate": "2026-02-03T00:00:00",
-        "download": "https://www.patreon.com/posts/ui-cheats-v1-13-26240068"
-    },
     "lot51_core": {
-        "filedate": "2026-02-06T00:00:00",
-        "download": "https://lot51.cc/mods/core-library"
+        "download": "https://lot51.cc/mods/core-library",
+        "filedate": "2026-02-06T00:00:00"
     },
     "midnitetech_Aspiration_DiscoverLife": {
-        "filedate": "2025-02-25T00:00:00",
-        "download": "https://www.patreon.com/posts/96534524?pr=true"
+        "download": "https://www.patreon.com/posts/96534524?pr=true",
+        "filedate": "2025-02-25T00:00:00"
     },
     "midnitetech_AspirationPack_HomeHobbies": {
-        "filedate": "2025-01-30T00:00:00",
-        "download": "https://www.patreon.com/posts/130702004"
+        "download": "https://www.patreon.com/posts/130702004",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_CallMeMaybe": {
-        "filedate": "2026-01-19T00:00:00",
-        "download": "https://www.patreon.com/posts/call-me-maybe-127818072"
+        "download": "https://www.patreon.com/posts/call-me-maybe-127818072",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_AllHoursAgency_Pack": {
-        "filedate": "2025-09-16T00:00:00",
-        "download": "https://www.patreon.com/posts/all-hours-full-103336939"
+        "download": "https://www.patreon.com/posts/all-hours-full-103336939",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_Flex_PartTime_Pack": {
-        "filedate": "2025-07-01T00:00:00",
-        "download": "https://www.patreon.com/posts/102582002"
+        "download": "https://www.patreon.com/posts/102582002",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_Freelancer_3DModeler": {
-        "filedate": "2025-02-25T00:00:00",
-        "download": "https://www.patreon.com/posts/freelance-3d-111545916?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link"
+        "download": "https://www.patreon.com/posts/freelance-3d-111545916?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_RetailPack": {
-        "filedate": "2026-01-13T00:00:00",
-        "download": "https://www.patreon.com/posts/retail-career-108866447"
+        "download": "https://www.patreon.com/posts/retail-career-108866447",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_SaturdaySolutions_PartTime_Pack": {
-        "filedate": "2025-07-01T00:00:00",
-        "download": "https://www.patreon.com/posts/128375289"
+        "download": "https://www.patreon.com/posts/128375289",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_SemiActive_ChiropractorCareer": {
-        "filedate": "2025-07-01T00:00:00",
-        "download": "https://www.patreon.com/posts/chiropractor-77004254"
+        "download": "https://www.patreon.com/posts/chiropractor-77004254",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_Career_SemiActive_GameDev": {
+        "download": "https://www.patreon.com/posts/123913485",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_SemiActive_HHC": {
-        "filedate": "2025-07-02T00:00:00",
-        "download": "https://www.patreon.com/posts/holistic-health-117561715"
+        "download": "https://www.patreon.com/posts/holistic-health-117561715",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_SemiActive_Librarian": {
-        "filedate": "2026-01-13T00:00:00",
-        "download": "https://www.patreon.com/posts/librarian-career-110646387"
+        "download": "https://www.patreon.com/posts/librarian-career-110646387",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_SemiActive_SequentialArt": {
-        "filedate": "2026-01-13T00:00:00",
-        "download": "https://www.patreon.com/posts/sequential-art-107834810"
+        "download": "https://www.patreon.com/posts/sequential-art-107834810",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_Career_SemiActive_Storytelling_Pack": {
-        "filedate": "2025-07-01T00:00:00",
-        "download": "https://www.patreon.com/posts/110155789"
+        "download": "https://www.patreon.com/posts/110155789",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_ClassicCareers_Banking": {
-        "filedate": "2025-07-29T00:00:00",
-        "download": "https://www.patreon.com/posts/122037607?utm_campaign=postshare_creator"
+        "download": "https://www.patreon.com/posts/122037607",
+        "filedate": "2026-02-04T00:00:00"
     },
     "midnitetech_ClassicCareers_Hacker": {
+        "download": "https://www.patreon.com/posts/122037607",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_ClassicCareers_HR": {
+        "download": "https://www.patreon.com/posts/122037607",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_ClassicCareers_IT": {
+        "download": "https://www.patreon.com/posts/123913485",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_ClassicCareers_LiteraryPublicist": {
+        "download": "https://www.patreon.com/posts/149335778",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_ClassicCareers_Pharmacist": {
+        "download": "https://www.patreon.com/posts/139108219",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_ClassicCareers_RealEstate": {
+        "download": "https://www.patreon.com/posts/123913485",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_CozyWinterMoments": {
+        "download": "https://www.patreon.com/posts/cozy-winter-free-145359598",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_Doomscrolling": {
+        "download": "https://www.patreon.com/posts/doomscrolling-103355360",
+        "filedate": "2024-08-27T00:00:00"
+    },
+    "midnitetech_MeetUpApp": {
+        "download": "https://www.patreon.com/posts/meetup-app-77408236",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_NoteworthyNotebook": {
+        "download": "https://www.patreon.com/posts/144901579",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_PowerOutages_v2": {
+        "download": "https://www.patreon.com/posts/power-outages-107054469",
+        "filedate": "2025-05-25T00:00:00"
+    },
+    "midnitetech_RenameWorlds": {
+        "download": "https://www.patreon.com/posts/135173807",
+        "filedate": "2026-01-23T00:00:00"
+    },
+    "midnitetech_SimazonUnlimited": {
+        "download": "https://www.patreon.com/posts/103081415?pr=true",
+        "filedate": "2025-04-03T00:00:00"
+    },
+    "midnitetech_SimU_AcademicLife": {
+        "download": "https://www.patreon.com/posts/148619730",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "midnitetech_SimU_OnlineDegrees_DURequired": {
+        "download": "https://www.patreon.com/posts/98920782",
+        "filedate": "2024-09-08T00:00:00"
+    },
+    "midnitetech_SimU_OnlineSkillClasses_BGC": {
+        "download": "https://www.patreon.com/posts/simu-online-bgc-96995809",
+        "filedate": "2025-02-25T00:00:00"
+    },
+    "midnitetech_SSH": {
+        "download": "https://www.patreon.com/posts/simoleonz-side-102169392",
+        "filedate": "2026-01-23T00:00:00"
+    },
+    "midnitetech_WriteBooksOverhaul": {
+        "download": "https://www.patreon.com/posts/106270148",
+        "filedate": "2026-02-04T00:00:00"
+    },
+    "UI_Cheats_": {
+        "download": "https://www.patreon.com/posts/ui-cheats-v1-13-26240068",
+        "filedate": "2026-02-03T00:00:00"
+    }
+}
