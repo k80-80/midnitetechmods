@@ -72,6 +72,18 @@
       "url": "https://www.patreon.com/posts/148619730",
       "note": "New Version Available"
     },
+    "midnitetech_SimU_OnlineDegrees_DURequired": {
+      "old": ["midnitetech_SimU_OnlineDegrees_DURequired.package"],
+      "replacement": "midnitetech_SimU_AcademicLife",
+      "url": "https://www.patreon.com/posts/148619730",
+      "note": "New Version Available"
+    },
+    "midnitetech_SimU_OnlineSkillClasses_BGC": {
+      "old": ["midnitetech_SimU_OnlineSkillClasses_BGC.package"],
+      "replacement": "midnitetech_SimU_AcademicLife",
+      "url": "https://www.patreon.com/posts/148619730",
+      "note": "New Version Available"
+    },
     "Midnitetech_Careers_SaturdayJobs": {
       "old": ["Midnitetech_Careers_SaturdayJobs.package", "midnitetech_Career_SaturdaySolutions_PartTime_Pack", "Midnitetech_Careers_SaturdayJobs.ts4script"],
       "replacement": "midnitetech_Career_SaturdaySolutions_Pack",
@@ -97,7 +109,7 @@
       "note": "New Version Available"
     },
     "Midnitetech_Careers_ComicsGraphicNovels": {
-      "old": ["Midnitetech_Careers_ComicsGraphicNovels.package", ""midnitetech_Career_SemiActive_SequentialArt.package", "Midnitetech_Careers_ComicsGraphicNovels.ts4script"],
+      "old": ["Midnitetech_Careers_ComicsGraphicNovels.package", "midnitetech_Career_SemiActive_SequentialArt.package", "Midnitetech_Careers_ComicsGraphicNovels.ts4script"],
       "replacement": "midnitetech_Career_SequentialArt",
       "url": "https://www.patreon.com/posts/sequential-art-107834810",
       "note": "New Version Available"
