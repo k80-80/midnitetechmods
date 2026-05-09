@@ -125,7 +125,13 @@
       "replacement": "midnitetech_Career_Storytelling_Pack",
       "url": "https://www.patreon.com/posts/storytelling-110155789",
       "note": "New Version Available"
-    }
+    },
+    "midnitetech_modlibrary": {
+      "old": ["midnitetech_modlibrary.ts4script"],
+      "replacement": "midnitetech_modlibrary_9May2026",
+      "url": "https://www.patreon.com/posts/midnitetech-121729961",
+      "note": "New Version Available"
+    },
   }
 }
 
