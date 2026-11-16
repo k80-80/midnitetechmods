@@ -1,5 +1,44 @@
 {
-  "midnitetech_": [
-    "midnitetech_modlibrary_"
+  "midnitetech_AfterschoolActivity_Pack": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_AnyCareer": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_AnyShift": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Aspiration_HomeHobbies_Pack": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_CallMeMaybe": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_AllHoursAgency_Pack": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_Freelancer_3DModeler": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_SaturdaySolutions_Pack": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_TravelWriter": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_CustomUniforms": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_NoteworthyNotebook": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_RenameWorlds": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_SimU_AcademicLife": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_SSH": [
+    "midnitetech_modlibrary.ts4script"
   ]
 }
