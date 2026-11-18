@@ -8,6 +8,9 @@
   "midnitetech_AnyShift": [
     "midnitetech_modlibrary.ts4script"
   ],
+  "midnitetech_Aspiration_CareerFocused": [
+    "midnitetech_modlibrary.ts4script"
+  ],
   "midnitetech_Aspiration_HomeHobbies_Pack": [
     "midnitetech_modlibrary.ts4script"
   ],
@@ -17,28 +20,115 @@
   "midnitetech_Career_AllHoursAgency_Pack": [
     "midnitetech_modlibrary.ts4script"
   ],
+  "midnitetech_Career_Banking": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_Chiropractor": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_ComicCreator": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_Flex_Pack": [
+    "midnitetech_modlibrary.ts4script"
+  ],
   "midnitetech_Career_Freelancer_3DModeler": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_GameDev": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_Hacker": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_HHC": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_HR": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_IT": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_Librarian": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_LiteraryPublicist": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_Pharmacist": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_RealEstate": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_Retail_Pack": [
     "midnitetech_modlibrary.ts4script"
   ],
   "midnitetech_Career_SaturdaySolutions_Pack": [
     "midnitetech_modlibrary.ts4script"
   ],
+  "midnitetech_Career_Storytelling_Pack": [
+    "midnitetech_modlibrary.ts4script"
+  ],
   "midnitetech_Career_TravelWriter": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_CozyWinterMoments": [
     "midnitetech_modlibrary.ts4script"
   ],
   "midnitetech_CustomUniforms": [
     "midnitetech_modlibrary.ts4script"
   ],
+  "midnitetech_Doomscrolling": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_MeetUpApp": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_minimods_BookFix": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_minimods_SwitchBranch": [
+    "midnitetech_modlibrary.ts4script"
+  ],
   "midnitetech_NoteworthyNotebook": [
     "midnitetech_modlibrary.ts4script"
   ],
+  "midnitetech_PowerOutages_v2": [
+    "midnitetech_modlibrary.ts4script"
+  ],
   "midnitetech_RenameWorlds": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_SimazonUnlimited": [
     "midnitetech_modlibrary.ts4script"
   ],
   "midnitetech_SimU_AcademicLife": [
     "midnitetech_modlibrary.ts4script"
   ],
   "midnitetech_SSH": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_WriteBooksOverhaul": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_ClassicCareers_": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_SemiActive_": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_AspirationPack_HomeHobbies": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_SaturdaySolutions_PartTime_Pack": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_Career_RetailPack": [
+    "midnitetech_modlibrary.ts4script"
+  ],
+  "midnitetech_minimods_allinone": [
     "midnitetech_modlibrary.ts4script"
   ]
 }
