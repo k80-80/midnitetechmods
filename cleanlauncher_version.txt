@@ -1,6 +1,16 @@
-v1.3.0
+v1.4.0
 https://www.patreon.com/posts/132298964
-I've made a bunch of changes, removing redundant or partially-working features. 
-Everything Clean Launcher includes now works as expected.
+• New full report
+• New fonts and tidier windows
+• Progress bar now moves properly on big Mods folders
+• Outdated Mods now lists every outdated mod, not just the first one
+• Mods with the same name but different file types are checked correctly
+• Mod requirements now update online without needing a new instance
+• Updated mods are backed up before switching profiles
+• Profiles can't be switched while Sims 4 is running
+• Old backups are tidied automatically (newest 3 kept)
+• Deleted files now all go to the Recycle Bin
+• Faster launch when nothing has changed
+• Lots of smaller bug fixes
 
- ~midnitetech
+~midnitetech 💚
