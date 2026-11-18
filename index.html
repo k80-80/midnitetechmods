@@ -1,306 +1,159 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Clean Launcher</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --bg-color: #f7fbff;
-      --text-color: #78a2b6;
-      --card-bg: #ffffff;
-      --highlight: #e7f2fb;
-      --border-accent: #89afc0;
-      --code-bg: #eef6fc;
-      --bg-color-tip: #fab96e;
-      --border-accent-tip: #fab96e;
-      --tip-bg: #ffe4d2;
-      --tip-color: #ef9300;
-      --section-border: #b2dbff;
-    }
-
-    a:link, a:visited {
-      background-color: #89afc0;
-      color: white;
-      padding: 1px 3px;
-      text-align: left;
-      text-decoration: none;
-      display: inline-block;
-      border-radius: 8px;
-      transition: background 0.3s;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.15);
-    }
-
-    a:hover, a:active {
-      background-color: #f7fbff;
-    }
-
-    body.dark {
-      --bg-color: #1e1e1e;
-      --text-color: #78a2b6;
-      --card-bg: #2c2c2c;
-      --highlight: #333c50;
-      --border-accent: #66aaff;
-      --code-bg: #444;
-    }
-
-    .section {
-      background: var(--card-bg);
-      border-radius: 18px;
-      box-shadow: var(--shadow);
-      border: 1.5px solid var(--section-border);
-      padding: 24px 32px 18px 32px;
-      margin-bottom: 32px;
-      max-width: 750px;
-      margin-left: auto;
-      margin-right: auto;
-      transition: background 0.3s, color 0.25s;
-    }
-
-    body {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 17px;
-      line-height: 1.7;
-      background-color: var(--bg-color);
-      color: var(--text-color);
-      padding: 40px 20px;
-      display: flex;
-      justify-content: center;
-      transition: background 0.3s, color 0.3s;
-    }
-
-    .card {
-      max-width: 800px;
-      background: var(--card-bg);
-      padding: 30px;
-      border-radius: 16px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-      transition: background 0.3s;
-    }
-
-    .logo-title img {
-      height: 56px;
-      border-radius: 14px;
-      background: var(--card-bg);
-      box-shadow: 0 2px 8px #0002;
-      padding: 4px;
-    }
-
-    .logo-title h1 {
-      font-size: 1.9em;
-      font-weight: 800;
-      color: var(--primary);
-      margin: 0;
-    }
-
-    .logo-title {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 18px;
-      margin-bottom: 24px;
-    }
-
-    .toggle-container {
-      text-align: right;
-      margin-bottom: 10px;
-    }
-
-    .toggle-button {
-      background: var(--card-bg);
-      color: var(--text-color);
-      font-family: 'Montserrat', sans-serif;
-      border: 2px solid var(--border-accent);
-      padding: 6px 14px;
-      border-radius: 8px;
-      cursor: pointer;
-      transition: background 0.3s, color 0.3s;
-    }
-
-    .toggle-button:hover {
-      background: var(--border-accent);
-      color: #fff;
-    }
-
-    h1 { font-size: 2em; margin: 0 0 0.5em; }
-    h2 { font-size: 1.6em; margin: 0; }
-    h3 { font-size: 1.3em; margin: 0; }
-
-    ul { padding-left: 1.2em; }
-
-    code {
-      background-color: var(--code-bg);
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 0.9em;
-    }
-
-    .tip-box {
-      background: var(--tip-bg);
-      color: var(--tip-color);
-      border-radius: 1px;
-      padding: 5px 18px;
-      box-shadow: 0 1px 8px #54e7e216;
-      text-align: center;
-      font-size: .9em;
-      margin-bottom: 1.2em;
-    }
-
-    details {
-      margin-bottom: 1.2em;
-      background-color: var(--highlight);
-      border-left: 4px solid var(--border-accent);
-      border-radius: 8px;
-      padding: 10px 14px;
-    }
-
-    summary {
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 1.1em;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    summary::-webkit-details-marker { display: none; }
-
-    summary .arrow {
-      width: 10px;
-      height: 10px;
-      flex-shrink: 0;
-      transition: transform 0.25s ease;
-      fill: var(--text-color);
-    }
-
-    details[open] summary .arrow {
-      transform: rotate(90deg);
-    }
-  </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Features and help for AnyCareer by midnitetech.">
+  <title>AnyCareer User Guide</title>
+  <link rel="stylesheet" href="font.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="guide.js" defer></script>
 </head>
-
 <body>
-<div class="card">
+  <a class="skip" href="#guide">Skip to guide</a>
+  <header class="masthead">
+    <a class="brand" href="https://midnitetechmods.com/" target="_blank" rel="noopener">
+      <img class="site-logo" src="AC_icons/AnyCareer_Banner.png" alt="midnitetechmods">
+    </a>
+    <div class="masthead-tools">
+      <button id="translate-toggle" class="translate-toggle" type="button" aria-expanded="false" aria-controls="translate-help">🌐 Translate</button>
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">◐ Dark Mode</button>
+      <div id="translate-help" class="translate-help" hidden>
+        <p><b>Read this page in your language</b></p>
+        <ul>
+          <li><b>Chrome/Edge:</b> right-click anywhere on this page and choose <b>Translate to&hellip;</b></li>
+          <li><b>Firefox:</b> click the translate icon in the address bar, or right-click and choose <b>Translate page</b>.</li>
+          <li><b>Safari:</b> click the translate icon in the address bar.</li>
+          <li><b>Phone:</b> open your browser menu and choose <b>Translate</b>.</li>
+        </ul>
+        <p class="meta">File names and folder paths stay in English so they still match your Mods folder.</p>
+      </div>
+    </div>
+  </header>
+  <main id="guide">
+    <section class="intro">
+      <p class="eyebrow">THE SIMS 4 · MIDNITETECH MODS</p>
+      <h1>AnyCareer: The Custom Career Creator</h1>
+      <p>Features, FAQ & User Guide</p>
+    </section>
+    <aside class="backup-note"><img src="AC_icons/modlib.png" alt="" width="26" height="26" /> <strong>Required:</strong> the latest version of the <a href="https://www.patreon.com/posts/midnitetech-121729961" target="_blank" rel="noopener">midnitetech_modlibrary</a>.</aside>
+    <div class="guide-sections">
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg><img src="AC_icons/AnyCareer_main.png" alt="" width="64" height="64" /> About AnyCareer</summary>
+    
+<p><strong>AnyCareer</strong> is a fully Base Game compatible mod that lets you create the career of your dreams for your Sims.</p>
 
-  <div class="toggle-container">
-    <button class="toggle-button" onclick="toggleMode()">🌓 Toggle Theme</button>
-  </div>
+<p>Name it anthing you like, assign a description and icon, set a workplace name, schedule, pay & more!</p>
 
-  <div class="logo-title">
-    <img src="https://i.ibb.co/8nvxKkS4/Clean-Launcher-Logo-2.png" alt="Clean Launcher Logo">
-    <h1>Clean Launcher User Guide</h1>
-  </div>
+<p>To get started, you just need the mod itself and the latest version of my <br><br><a class="website-button" href="https://www.patreon.com/posts/midnitetech-121729961" target="_blank"><strong>📁modlibrary</strong></a></p>
+<p>Then, head to<br><br> 📱Phone → Business → <strong>Find a Job</strong><br>
+💻 Computer → Career → <strong>Find a Job</strong><br>
 
-  <div class="tip-box">
-    <strong>⚠️ Note:</strong>
-    When you first open the app, you'll be prompted to back up your <code data-start="460" data-end="468">/Mods</code> folder. Please don't ignore this!
-  </div>
+and choose <b>AnyCareer:</b> The Custom Career Creator</p>
+<p style="text-align: center;"><img src="AC_icons/Main_Career.png" alt="" width="800" height="400" /></p>
+    </details>
+    
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg><img src="AC_icons/Checklist.png" alt="" width="64" height="64" /> Setup</summary>
+    
+<p>As soon as you join the career, you'll be automatically taken through the setup process.</p>
 
-  <div class="section">
-    <h2>✨ Getting Started</h2>
+<p style="text-align: center;"><img src="AC_icons/CareerTitle.png" alt="" width="500" height="250" /></p>
 
-  <p>The first time you run Clean Launcher, you&rsquo;ll be prompted to create a <strong data-start="224" data-end="254">backup of your <code data-start="460" data-end="468">/Mods</code> folder</strong>. This stores a safe copy of your current setup outside of The Sims 4 folders, so you can experiment, switch profiles, or update the game knowing your original mods are protected.<br /><br />From the ⚙️<strong data-start="601" data-end="635">Settings icon in the main menu</strong>, you can also choose to <strong data-start="660" data-end="697">start Clean Launcher with Windows</strong>. When enabled, Clean Launcher will run quietly in the system tray, and features like <strong data-start="782" data-end="795">Auto Mods</strong> will always be active in the background.</p>
-<p data-start="838" data-end="920">You can manage startup and Auto Mods behaviors at any time in&nbsp;⚙️Settings.</p>
+<p>Type in a name for your career, or click <b>Randomize</b> for some inspiration! Then, optionally add a <b>Workplace</b> name and description, and choose an <b>Icon</b> for your career.</p>
 
-  </div>
+<p>I've included over 400 offical icons, and a few from The Sims 3, too! Once you've added the basic details, you can then choose your <b>Schedule</b>, and <b>Hourly Pay</b>.</p>
+
+<p style="text-align: center;"><img src="AC_icons/ExamplesBanner.png" alt="" width="300" height="150" /></p>
+
+<p>When you've completed the setup, you can use your new career right away, or enable <b>Work-From-Home</b>, and read more <b>About Work Preferences</b>.</p>
+
+<p>Any time you want to change anything, just head to a Computer or Mailbox, choose your career and <b>Edit Details</b>. You can also assign a <b>Uniform</b> here.</p>
+<p style="text-align: center;"><img src="AC_icons/SetupBanner.png" alt="" width="600" height="186" /></p>
+
+</details>
+
+
+    
+        <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg><img src="AC_icons/WFH.png" alt="" width="64" height="64" /> Work-From-Home</summary>
+    
+<p>Enable this option from <code>Computer → Career → Your Career → <b>Add/Remove Work Preferences</b></code>, or a Mailbox, to allow your Sim to be offered assignments from their workplace instead of heading to the office.</p>
+
+<p>To personalize your <b>Work-From-Home</b> assignments, and <b>Daily Tasks</b>, you can set <b>Work Preferences</b> that suit your career.</p>
+    </details>
+    
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg><img src="AC_icons/AboutWorkPrefs.png" alt="" width="64" height="64" /> Work Preferences</summary>
+      <p>Under <code>Computer → Career → Your Career → <strong>Add/Remove Work Preferences</strong></code>, or a Mailbox, you'll find options to customize your work experience.</p>
+<ul>
+<li>Add an <strong>Employment Role</strong> to specify your Sim's job responsibilities, i.e., Employee, Owner, etc. This option will help make <strong>Daily Tasks</strong> more specific.</li>
+</ul>
+<p>If you've enabled <strong>Work-From-Home</strong>, you can also select from the following options. </p>
+<ul>
+<li><strong>Work Relationships: </strong>Choose the type of Sims you work with, i.e., <strong>Clients</strong>, <strong>Customers</strong>, <strong>Patients</strong>, etc.<br /><br /></li>
+<li><strong>Work Tasks:</strong> Add up to 3 <strong>Work Tasks</strong> from 6 categories, like <strong>Business &amp; Administration</strong> and <strong>Care &amp; Services</strong> to offer a better variety of assignments and dictate what kind of work you'll do.<br /><br /></li>
+<li><strong>Work Venues:</strong> Optionally add a <strong>Venue</strong> where you'll work. For example, choose the <strong>Library</strong>, and you'll be offered active style assignments. You'll travel to the <strong>Library</strong>, <strong>Clock In</strong>, and work through different tasks, like <strong>Chatting</strong> <strong>with</strong> <strong>Patrons</strong>, <strong>Assisting</strong> <strong>with</strong> <strong>Registration</strong>, etc.</li>
+</ul>
+<p>The more <strong>Work Preferences</strong> you add, the better suited your assignments will be to that Sim. You can <strong>View</strong> &amp; <strong>Remove</strong> <strong>Work</strong> <strong>Preferences</strong> from the Career menu on a Computer or from a Mailbox at any time.</p>
+
+<p style="text-align: center;"><img src="AC_icons/WorkPrefs.png" alt="" width="600" height="186" /></p>
+
+</details>
+
+    <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg><img src="AC_icons/ChooseSkill.png" alt="" width="64" height="64" /> Promotions & Objectives</summary>
+      
+<p>When your Sim is promoted to Level 02, they'll be able to choose a <b>Preferred Skill</b>. You can choose any, including <b>Custom Skills</b> if you have any installed. This skill will then be used for their <b>Promotion Objectives.</b></p>
+
+<p>You'll also be prompted to <b>Update</b> your Sim's title if you like, or choose <b>Don’t Ask Again</b> to stick with their current one. You can opt out of <b>Promotions</b> at any time.</p>
+
+<p>Their <b>Salary</b> will increase with each promotion, but you can adjust the amounts whenever you like.</p>
+
+<p>Promotions also include monetary rewards.</p>
+</details>
+      
+      <details>
+      <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg><img src="AC_icons/faq.png" alt="" width="64" height="64" /> FAQ</summary>
+
+<div class="faq-item"><h3 class="faq-question">How do I change my title?</h3><div class="faq-answer"><p>You can change your title, description, and other details from the <b>Edit (Your Career) Details</b> menu on a Computer or Mailbox.</p></div></div>
+<div class="faq-item"><h3 class="faq-question">Do I have to use the <b>Work Preferences</b>? I just want a basic career.</h3><div class="faq-answer"><p>No, they're totally optional. They just help to personalize your Sim's assignments if they opt to <b>Work-From-Home.</b></p></div></div>
+<div class="faq-item"><h3 class="faq-question">Does the career have <b>Daily Tasks</b>?</h3><div class="faq-answer"><p>Yes, the career includes <b>Daily Tasks</b> that your Sim can complete each day. These can be personalized by choosing an <b>Employment Role</b>.</p></div></div>
+<div class="faq-item"><h3 class="faq-question">How do I?</h3><div class="faq-answer"><p></p></div></div>
+<p>ℹ️ Question not answered here? Send me a <strong><a href="https://midnitetechmods.com/contact">message</a></strong> and I'll get back to you ASAP. Please be sure to include your <code>midnitetech_settings.json</code>, and your <code>midnitetech_log.html</code>.</p><p style="text-align: center;"><a class="website-button" href="https://midnitetechmods.com/troubleshooting" target="_blank"><strong>Click Here For Troubleshooting</strong></a>
+
+
+    
+  </details>
   
-  <details>
-    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg>⭐ Auto Mods</summary>
-    <ul>On first launch or reset, Clean Launcher will offer to create an <code data-start="460" data-end="468">/Auto Mods</code> folder inside your <code data-start="460" data-end="468">/Mods</code> directory.<p>Anything you drop into Auto Mods is handled automatically while Clean Launcher runs in the system tray. Archives are unzipped if needed, <strong data-start="342" data-end="368">mods stay in Auto Mods</strong>, and non-mod files are sent where they belong &mdash; <strong data-start="417" data-end="470">Tray files go to <code data-start="436" data-end="443">/Tray</code> and Saves go to <code data-start="460" data-end="468">/Saves</code></strong>.<p>There’s no manual unzipping or copying required. For quick access, you can pin Auto Mods to <a href="https://support.microsoft.com/en-gb/windows/file-explorer-in-windows-ef370130-1cca-9dc5-e0df-2f7416fe1cb1">Windows Quick Access</a> and drop files in as you download them, ready to test or organize later.</p>
-    </ul>
-  </details>
+    </div>
+    <section class="resources">
+      <h2>Links &amp; Info</h2>
+<details><summary>Patch Compatibility Status</summary><p><a href="https://www.status.midnitetechmods.com/" target="_blank" rel="noopener">Mod Status</a></p></details>
+<details><summary>Mod Library</summary><p><a href="https://www.patreon.com/midnitetech/posts/midnitetech-121729961" target="_blank" rel="noopener">https://www.patreon.com/midnitetech/posts/midnitetech-121729961</a></p></details>
+<details><summary>My Website</summary><p><a href="https://midnitetechmods.com/" target="_blank" rel="noopener">https://midnitetechmods.com/</a></p></details>
+<details><summary>Support</summary><p><a href="https://midnitetechmods.com/support" target="_blank" rel="noopener">https://midnitetechmods.com/support</a></p></details>
+<details><summary>Follow &amp; Contact</summary><p><a href="https://www.patreon.com/c/midnitetech" target="_blank" rel="noopener">Patreon ↗</a> · <a href="https://midnitetech.tumblr.com/" target="_blank" rel="noopener">Tumblr ↗</a> · <a href="support@midnitetechmods.com">Email</a></p></details>
+    </section>
+  </main>
+  <footer class="site-footer">
+  <nav aria-label="Footer links">
 
-  <details>
-    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 🧹 Clean &amp; Launch Sims 4</summary>
-    <ul>
-      Clean &amp; Launch deletes temporary cache files and error logs, then launches The Sims 4 in one click.<br><br>
-      You can optionally clear the cache only when your <code data-start="460" data-end="468">/Mods</code> folder has changed, or open the EA App if you need to be in offline mode. You can set the app to remember your selections, too. 
-    </ul>
-  </details>
+    <a href="https://midnitetechmods.com/"
+       target="_blank"
+       rel="noopener">
+      midnitetechmods ↗
+    </a>
+  </nav>
 
-  <details>
-    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 🔎 Scan Mods</summary>
-    <p data-start="169" data-end="295">Scan Mods checks your <code data-start="460" data-end="468">/Mods</code> folder for common issues that can stop mods from working correctly or cause unexpected problems in-game.</p>
-<p data-start="297" data-end="568">It looks for <strong data-start="310" data-end="333">buried script files</strong>, <strong data-start="335" data-end="378">zipped mods that haven&rsquo;t been extracted</strong>, <strong data-start="380" data-end="399">duplicate files</strong>, and <strong data-start="405" data-end="432">incorrect game settings</strong>&mdash;then offers to fix what it finds. Nothing is changed without your confirmation, and you&rsquo;ll always see exactly what&rsquo;s being addressed.</p>
-<p data-start="570" data-end="687">Running a scan is a quick way to catch problems early and keep your <code data-start="460" data-end="468">/Mods</code> folder clean, compatible, and ready to play. It currently tracks all my <b>(midnitetech)</b> mods, and lets you know if you have an outdated version, or are missing a dependency.</p>
-  </details>
+  <p>© 2026 midnitetech. All rights reserved.</p>
 
-  <details>
-    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 📁 Organize Mods</summary>
-    <ul>
-      <p data-start="170" data-end="306">Organize Mods gives you a live, folder-tree view of your <code data-start="460" data-end="468">/Mods</code> directory, so you can see exactly how everything is laid out in real time.</p>
-<p data-start="308" data-end="563">You can <strong data-start="316" data-end="360">drag files or folders to reorganize them</strong>, <strong data-start="362" data-end="395">create new folders on the fly</strong>, and use <strong data-start="405" data-end="433">Ctrl+click or checkboxes</strong> to select and move multiple items at once. Changes are applied instantly, so what you see is what&rsquo;s actually in your <code data-start="460" data-end="468">/Mods</code> folder.</p>
-<p data-start="565" data-end="692">If you make a mistake, <strong data-start="588" data-end="606">Undo Last Move</strong> lets you roll back your most recent action&mdash;no hunting things down or starting over.</p>
-    </ul>
-  </details>
-
-  <details>
-    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 👤 Mod Profile Manager</summary>
-    <p data-start="159" data-end="256">Mod Profiles let you save different mod folder setups and switch between them safely and easily.</p>
-<p data-start="258" data-end="490">Your current <code data-start="460" data-end="468">/Mods</code> folder is stored as your <strong data-start="301" data-end="317">Default Mods</strong>&mdash;a protected backup of your usual setup. You can then create additional profiles for testing, updates, or lighter play styles and switch between them with a single click. Whatever is in your <code data-start="460" data-end="468">/Mods</code> folder when you hit Create New will be your new Profile.</p>
-<p data-start="492" data-end="705">If changes are detected before you switch profiles, Clean Launcher will prompt you to save them, so nothing is lost. </p>
-<p data-start="707" data-end="834">Mod Profiles make it easy to play while waiting for updates, testing new mods, or just for seeing if you really can go without that folder of CC you've been hoarding since 2014.</p><p>If you need to replace the contents of a profile, you can do that from Mod Profiles → <code data-start="460" data-end="468">More</code>, where you can also see your backups, restore your original, or change your backup location. All profiles and backups are stored outside your Sims 4 folders and can be restored at any time. </p>
-  </details>
-
-  <details>
-    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 🗂️ Backup CC, Tray & Save Files</summary>
-    <p data-start="142" data-end="299">The Backup feature lets you create a safe, compressed copy of your <strong data-start="209" data-end="217">Mods</strong>, <strong data-start="219" data-end="228">Saves</strong>, <strong data-start="230" data-end="238">Tray</strong>, or <strong data-start="243" data-end="265">everything at once</strong>, stored in a location you choose.</p>
-<p data-start="301" data-end="518">Clean Launcher packages your files into a zip archive, making it easy to keep organized backups before updates, testing new mods, or making big changes. Your original folders are never altered during the process.</p><p>Large folders may take a while to compress.</p>
-  </details>
-
-  <details>
-    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 🗑️ Uninstall Clean Launcher</summary>
-    <p data-start="129" data-end="405">Before uninstalling, make sure <strong data-start="160" data-end="194">Clean Launcher is fully closed</strong>. If it&rsquo;s running, right-click the Clean Launcher icon in the system tray (by the clock) and choose <strong data-start="294" data-end="302">Exit</strong>. You can also disable <strong data-start="325" data-end="347">Start with Windows</strong> from the tray menu or from <strong data-start="375" data-end="387">Settings</strong> in the main menu.</p>
-<p data-start="407" data-end="497">Once closed, uninstall Clean Launcher as usual from <strong data-start="459" data-end="485">Add or Remove Programs</strong> in Windows.</p>
-<p data-start="499" data-end="661">If you&rsquo;ve enabled Clean Launcher to start with Windows, the auto-start entry can be removed either from the <strong data-start="607" data-end="620">tray menu</strong> or via <strong data-start="628" data-end="640">Settings</strong> before uninstalling.</p>
-<p data-start="663" data-end="750">Your Mods, Saves, Tray files, and backups are not deleted when you uninstall.</p>
-  </details>
-
-  <details>
-    <summary><svg class="arrow" viewBox="0 0 8 8"><path d="M0 0 L6 4 L0 8 Z"/></svg> 💡 FAQ</summary>
-    <h4 data-start="628" data-end="677"><strong data-start="632" data-end="677">Does Clean Launcher modify my game files?</strong></h4>
-<p data-start="678" data-end="817">No. Clean Launcher works only with your <strong data-start="718" data-end="726">Mods</strong>, <strong data-start="728" data-end="737">Saves</strong>, and <strong data-start="743" data-end="751">Tray</strong> folders. It does not modify game files or core installation data.</p>
-<hr data-start="819" data-end="822" />
-<h4 data-start="824" data-end="874"><strong data-start="828" data-end="874">Is anything changed without my permission?</strong></h4>
-<p data-start="875" data-end="1016">No. Actions like backups, profile switches, scans, and fixes always require confirmation. Clean Launcher won&rsquo;t delete or move files silently.</p>
-<hr data-start="1018" data-end="1021" />
-<h4 data-start="93" data-end="143"><strong data-start="97" data-end="143">Why does my antivirus flag Clean Launcher?</strong></h4>
-<p data-start="144" data-end="361">Clean Launcher is a small, unsigned Windows utility that interacts with your Mods, Saves, and Tray folders. Some antivirus programs flag tools like this due to <strong data-start="304" data-end="326">heuristic scanning</strong>, not because the app is malicious.</p>
-<p data-start="363" data-end="620">Clean Launcher does not include malware, spyware, or data collection. If your antivirus blocks it, you may need to add an exception or allow it manually. You&rsquo;re also welcome to <strong data-start="540" data-end="592">scan the installer or executable with VirusTotal</strong> for additional reassurance.</p>
-<hr data-start="1269" data-end="1272" />
-<h4 data-start="1023" data-end="1072"><strong data-start="1027" data-end="1072">Can Clean Launcher run in the background?</strong></h4>
-<p data-start="1073" data-end="1267">Yes. You can set Clean Launcher to <strong data-start="1108" data-end="1130">start with Windows</strong> using the ⚙️<strong data-start="1140" data-end="1174">Settings icon in the main menu</strong>. When enabled, it runs quietly in the system tray, and features like Auto Mods remain active.</p>
-<hr data-start="1269" data-end="1272" />
-<h4 data-start="1274" data-end="1321"><strong data-start="1278" data-end="1321">What happens if I close Clean Launcher?</strong></h4>
-<p data-start="1322" data-end="1507">Clean Launcher will run in the tray unless you exit it or don't have autostart enabled. When it isn&rsquo;t running, background features like <strong data-start="1380" data-end="1393">Auto Mods</strong> won&rsquo;t be active. You can relaunch it at any time&mdash;or enable Start with Windows (⚙️<strong data-start="1140" data-end="1174">Settings)</strong> to keep it running automatically.</p>
-<hr data-start="1509" data-end="1512" />
-<h4 data-start="1514" data-end="1563"><strong data-start="1518" data-end="1563">Where are my profiles and backups stored?</strong></h4>
-<p data-start="1564" data-end="1733">Profiles and backups are stored <strong data-start="1596" data-end="1630">outside of your Sims 4 folders</strong>, in a separate location managed by Clean Launcher. This keeps them safe from game updates and repairs.</p>
-<p data-start="1564" data-end="1733">You can see their location by right-clicking Clean Launcher in the tray and choosing Open Installation Folder, or from the More menu in Mod Profile Manager.</p>
-<hr data-start="1735" data-end="1738" />
-<h4 data-start="1740" data-end="1797"><strong data-start="1744" data-end="1797">Will uninstalling Clean Launcher delete my files?</strong></h4>
-<p data-start="1798" data-end="1938">No. Uninstalling Clean Launcher does not delete your Mods, Saves, Tray files, profiles, or backups. Everything remains exactly where it was. Disabling Auto Mods will prompt you if you want to delete the folder itself, and it's contents.</p>
-<hr data-start="1940" data-end="1943" />
-<h4 data-start="1945" data-end="1984"><strong data-start="1949" data-end="1984">Is Clean Launcher Windows-only?</strong></h4>
-<p data-start="1985" data-end="2049">Yes. Clean Launcher is currently available for <strong data-start="2032" data-end="2048">Windows only</strong>.</p>
-<hr data-start="1940" data-end="1943" />
-<h4 data-start="1945" data-end="1984">Scan Mods is telling me I have buried scripts when I don't?</h4>
-<p>Create a Full Report from the Settings menu, and check the path of your Mods folder. If it doesn't read '\The Sims 4\Mods', you need to set your Mods folder path (⚙️<strong data-start="1140" data-end="1174">Settings)</strong>.</p>
-  </details>
-
-  <div class="footer" style="text-align:center;">
-    <a href="https://midnitetechmods.com/" target="_blank" class="website-button">🌐 midnitetechmods.com</a>
-    <p>Happy Simming!<br><strong>~midnitetech</strong> 💚</p>
-  </div>
-
-</div>
-
-<script>
-  function toggleMode() {
-    document.body.classList.toggle('dark');
-  }
-</script>
-
+  <p class="footer-disclaimer">
+    This website and its content are not affiliated with or endorsed
+    by Electronic Arts or Maxis.<br>
+    The Sims™ 4 and all associated trademarks are the property of
+    Electronic Arts Inc.
+  </p>
+</footer>
 </body>
 </html>
