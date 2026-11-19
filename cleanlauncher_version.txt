@@ -1,16 +1,9 @@
-v1.4.0
+v1.5.0
 https://www.patreon.com/posts/132298964
-• New full report
-• New fonts and tidier windows
-• Progress bar now moves properly on big Mods folders
-• Outdated Mods now lists every outdated mod, not just the first one
-• Mods with the same name but different file types are checked correctly
-• Mod requirements now update online without needing a new instance
-• Updated mods are backed up before switching profiles
-• Profiles can't be switched while Sims 4 is running
-• Old backups are tidied automatically (newest 3 kept)
-• Deleted files now all go to the Recycle Bin
-• Faster launch when nothing has changed
-• Lots of smaller bug fixes
+
+• Clean Launcher can now be translated into other languages
+  Add downloaded translations with Settings → Language → Add a language file
+• Installer now closes Clean Launcher properly before updating, fixing "Error 5"
+• Installer now finishes removing older copies before installing
 
 ~midnitetech 💚
